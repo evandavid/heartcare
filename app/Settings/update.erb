@@ -1,0 +1,38 @@
+<div data-role="page" data-add-back-btn="true">
+
+  <div data-role="header" data-position="fixed">
+   <a href="<%= url_for :action => :profile %>" class="ui-btn-left" data-icon="arrow-l" >
+      Back
+    </a>
+    <h1>Update Profile <%=@user.username.capitalize%> </h1>
+  </div>
+
+  <div data-role="content">
+    <form method="POST" action="<%= url_for :action => :do_update %>">
+      <% if @msg %>
+          <div class="error-message"><%= @msg %></div>
+      <% end %>
+
+      <div data-role="fieldcontain">
+        <input type="text" id="email" name="email" class="itemValue" placeholder="email" value="<%=@user.email%>"/>
+          <br />
+        <input type="text" id="first_name" name="first_name" class="itemValue" placeholder="first name" value="<%=@user.first_name%>"/>
+          <br />
+        <input type="text" id="last_name" name="last_name" class="itemValue" placeholder="last name" value="<%=@user.last_name%>"/>
+          <br />
+        <input type="text" id="address" name="address" class="itemValue" placeholder="address" value="<%=@user.address%>"/>
+          <br />
+        <input type="text" id="mobile" name="mobile" class="itemValue" placeholder="mobile phone" value="<%=@user.mobile%>"/>
+      </div>
+      <fieldset class="ui-grid-a">
+        <div class="ui-block-a"><button type="reset" data-theme="f">Reset</button></div>
+        <div class="ui-block-b"><button type="submit" data-theme="e" >Submit</a></div>     
+      </fieldset>
+    </form>
+  </div>
+
+  <div data-role="footer" data-position="fixed"> 
+      <h3>Heart Care</h3> 
+  </div>
+
+</div>

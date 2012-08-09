@@ -1,0 +1,104 @@
+<div data-role="page" data-add-back-btn="false">
+
+  <div data-role="header" data-position="inline">
+    <h1><%= @Member.id %></h1>
+    <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">
+      Back
+    </a>
+    <a href="<%= url_for :action => :edit, :id => @Member.object %>" class="ui-btn-right" data-icon="star">
+      Edit
+    </a>
+  </div>
+
+  <div data-role="content">
+    <ul data-role="listview">
+      
+          <li>
+            <div class="itemLabel">Id</div>
+            <div class="itemValue"><%= @Member.id %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Email</div>
+            <div class="itemValue"><%= @Member.email %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">EncryptedPassword</div>
+            <div class="itemValue"><%= @Member.encrypted_password %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">ResetPasswordToken</div>
+            <div class="itemValue"><%= @Member.reset_password_token %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">RememberCreatedAt</div>
+            <div class="itemValue"><%= @Member.remember_created_at %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">ResetPasswordSentAt</div>
+            <div class="itemValue"><%= @Member.reset_password_sent_at %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">SignInCount</div>
+            <div class="itemValue"><%= @Member.sign_in_count %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">CurrentSignInAt</div>
+            <div class="itemValue"><%= @Member.current_sign_in_at %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">LastSignInAt</div>
+            <div class="itemValue"><%= @Member.last_sign_in_at %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">CurrentSignInIp</div>
+            <div class="itemValue"><%= @Member.current_sign_in_ip %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">LastSignInIp</div>
+            <div class="itemValue"><%= @Member.last_sign_in_ip %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">AuthenticationToken</div>
+            <div class="itemValue"><%= @Member.authentication_token %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">CreatedAt</div>
+            <div class="itemValue"><%= @Member.created_at %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">UpdateAt</div>
+            <div class="itemValue"><%= @Member.update_at %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Username</div>
+            <div class="itemValue"><%= @Member.username %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Name</div>
+            <div class="itemValue"><%= @Member.name %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">ParentId</div>
+            <div class="itemValue"><%= @Member.parent_id %></div>
+          </li>
+      
+    </ul>
+  </div>
+
+</div>

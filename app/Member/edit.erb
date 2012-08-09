@@ -1,0 +1,106 @@
+<div data-role="page">
+
+  <div data-role="header" data-position="inline">
+    <h1>Edit <%= @Member.id %></h1>
+    <a href="<%= url_for :action => :show, :id => @Member.object %>" class="ui-btn-left" data-icon="back" data-direction="reverse">
+      Cancel
+    </a>
+    <a href="<%= url_for :action => :delete, :id => @Member.object %>" class="ui-btn-right" data-icon="delete" data-direction="reverse">
+      Delete
+    </a>
+  </div>
+
+  <div data-role="content">
+    <form method="POST" action="<%= url_for :action => :update %>">
+      <input type="hidden" name="id" value="<%= @Member.object %>"/>
+      
+          <div data-role="fieldcontain">
+            <label for="user[id]" class="fieldLabel">Id</label>
+            <input type="text" id="user[id]" name="user[id]" value="<%= @Member.id %>" <%= placeholder( "Id" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="user[email]" class="fieldLabel">Email</label>
+            <input type="text" id="user[email]" name="user[email]" value="<%= @Member.email %>" <%= placeholder( "Email" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="user[encrypted_password]" class="fieldLabel">Encrypted password</label>
+            <input type="text" id="user[encrypted_password]" name="user[encrypted_password]" value="<%= @Member.encrypted_password %>" <%= placeholder( "Encrypted password" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="user[reset_password_token]" class="fieldLabel">Reset password token</label>
+            <input type="text" id="user[reset_password_token]" name="user[reset_password_token]" value="<%= @Member.reset_password_token %>" <%= placeholder( "Reset password token" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="user[remember_created_at]" class="fieldLabel">Remember created at</label>
+            <input type="text" id="user[remember_created_at]" name="user[remember_created_at]" value="<%= @Member.remember_created_at %>" <%= placeholder( "Remember created at" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="user[reset_password_sent_at]" class="fieldLabel">Reset password sent at</label>
+            <input type="text" id="user[reset_password_sent_at]" name="user[reset_password_sent_at]" value="<%= @Member.reset_password_sent_at %>" <%= placeholder( "Reset password sent at" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="user[sign_in_count]" class="fieldLabel">Sign in count</label>
+            <input type="text" id="user[sign_in_count]" name="user[sign_in_count]" value="<%= @Member.sign_in_count %>" <%= placeholder( "Sign in count" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="user[current_sign_in_at]" class="fieldLabel">Current sign in at</label>
+            <input type="text" id="user[current_sign_in_at]" name="user[current_sign_in_at]" value="<%= @Member.current_sign_in_at %>" <%= placeholder( "Current sign in at" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="user[last_sign_in_at]" class="fieldLabel">Last sign in at</label>
+            <input type="text" id="user[last_sign_in_at]" name="user[last_sign_in_at]" value="<%= @Member.last_sign_in_at %>" <%= placeholder( "Last sign in at" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="user[current_sign_in_ip]" class="fieldLabel">Current sign in ip</label>
+            <input type="text" id="user[current_sign_in_ip]" name="user[current_sign_in_ip]" value="<%= @Member.current_sign_in_ip %>" <%= placeholder( "Current sign in ip" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="user[last_sign_in_ip]" class="fieldLabel">Last sign in ip</label>
+            <input type="text" id="user[last_sign_in_ip]" name="user[last_sign_in_ip]" value="<%= @Member.last_sign_in_ip %>" <%= placeholder( "Last sign in ip" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="user[authentication_token]" class="fieldLabel">Authentication token</label>
+            <input type="text" id="user[authentication_token]" name="user[authentication_token]" value="<%= @Member.authentication_token %>" <%= placeholder( "Authentication token" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="user[created_at]" class="fieldLabel">Created at</label>
+            <input type="text" id="user[created_at]" name="user[created_at]" value="<%= @Member.created_at %>" <%= placeholder( "Created at" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="user[update_at]" class="fieldLabel">Update at</label>
+            <input type="text" id="user[update_at]" name="user[update_at]" value="<%= @Member.update_at %>" <%= placeholder( "Update at" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="user[username]" class="fieldLabel">Username</label>
+            <input type="text" id="user[username]" name="user[username]" value="<%= @Member.username %>" <%= placeholder( "Username" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="user[name]" class="fieldLabel">Name</label>
+            <input type="text" id="user[name]" name="user[name]" value="<%= @Member.name %>" <%= placeholder( "Name" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="user[parent_id]" class="fieldLabel">Parent</label>
+            <input type="text" id="user[parent_id]" name="user[parent_id]" value="<%= @Member.parent_id %>" <%= placeholder( "Parent" ) %> />
+          </div>
+      
+      <input type="submit" value="Update"/>
+    </form>
+  </div>
+
+</div>

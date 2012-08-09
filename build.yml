@@ -1,0 +1,28 @@
+#sdk: "C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3"
+sdkversion: "3.3.3"
+name: "Heart Care"
+version: 1.0
+vendor: "rhomobile"
+build: "debug"
+bbver: 4.6
+applog: "rholog.txt"
+iphone:
+  configuration: "Release"
+  sdk: "iphonesimulator5.0"
+  provisionprofile: 
+  codesignidentity: 
+  entitlements: 
+  BundleIdentifier: "com.rhomobile.aorta"
+  BundleURLScheme: "aorta"
+wp:
+  productid: "fe7f49b0-ab0d-012f-59eb-6c626db2ef0a"
+symbian:
+  uid: "0xe8ee033a"
+android:
+  version: "2.3.3"
+  android_title: 0
+extensions:
+  - json
+  - another-extension
+capabilities:
+  - bluetooth

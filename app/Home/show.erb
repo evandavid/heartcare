@@ -1,0 +1,88 @@
+<div data-role="page" data-add-back-btn="false">
+
+  <div data-role="header" data-position="fixed">
+    <h1>Monitoring</h1>
+    <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">
+      Back
+    </a>
+  </div>
+
+  <div data-role="content">
+
+      <div class="ui-grid-b">
+        <div class="ui-block-b">
+          <canvas id="canvas-preview" ></canvas>
+          <span id="preview-textfield"></span>
+        </div>
+      </div>
+
+      <ul data-role="listview" data-inset="true"> 
+        <li data-role="list-divider" data-divider-theme="a">Detail</li> 
+        <li> 
+          Heart Rate : <span class="ui-li-aside" id="hr_value">0 bpm</span>
+        </li> 
+        <li> 
+          Distance : <span class="ui-li-aside" id="distance_value">0 m</span>
+        </li>
+        <li> 
+          Speed : <span class="ui-li-aside" id="speed_value">0 m/s</span>
+        </li>
+        <li> 
+          Battery : <span class="ui-li-aside" id="bt_value">0 %</span>
+        </li>
+      </ul> 
+
+      <script type="text/javascript">
+        function initDonut(data){
+          var opts = {
+                      lines: 12,
+                      angle: 0, 
+                      lineWidth: 0.1, 
+                      pointer: {
+                        length: 0.9, 
+                        strokeWidth: 0.035 
+                      },
+                      colorStart: '#6FADCF',   // Colors
+                      colorStop: '#8FC0DA',    // just experiment with them
+                      strokeColor: '#E0E0E0'   // to see which ones work best for you
+                    };
+          var target = document.getElementById('canvas-preview'); 
+          var gauge = new Donut(target).setOptions(opts);
+           gauge.setTextField(document.getElementById("preview-textfield"))
+          gauge.maxValue = 250; // set max gauge value
+          gauge.animationSpeed = 15; // set animation speed (32 is default value)
+          gauge.set(data);
+        };
+          
+        function setAnimate(data){
+          initDonut(data);
+        };
+        
+        function setHr(data){
+          $("#hr_value").html(data);
+        }
+
+        function setBattery(data){
+          var bat = data+" %";
+          $("#bt_value").html(bat);
+        }
+
+        function setDistance(data){
+          var distance = data+" m"
+          $("#distance_value").html(distance);
+        }
+
+         function setSpeed(data){
+          var speed = data+" m/s"
+          $("#speed_value").html(speed);
+        }
+
+      </script>
+      
+  </div>
+
+  <div data-role="footer" data-position="fixed"> 
+      <h3>Heart Care</h3> 
+  </div>
+
+</div>

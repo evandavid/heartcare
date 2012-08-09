@@ -1,0 +1,31 @@
+<div data-role="page">
+
+  <div data-role="header" data-position="fixed">
+    <a href="<%= url_for :controller => :Home, :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">
+      Back
+    </a>
+    <h1>Settings</h1>
+  </div>
+
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true">
+      <% if @msg %>
+          <li class="error-message"><%= @msg %></li>
+      <% end %>
+
+      <li><a href="<%= url_for :action => :profile %>">Profile</a></li>
+      <li><a href="<%= url_for :controller => :User, :action => :add_member %>">Add Member</a></li>
+      <li><a href="<%= url_for :action => :reset %>">Reset Database</a></li>
+      <li><a href="<%= url_for :action => :do_sync %>">Perform Sync</a></li>
+      <% if logged_in? %>
+          <li><a href="<%= url_for :action => :logout %>">Logout</a></li>
+      <% else %>
+          <li><a href="<%= url_for :action => :login %>">Login</a></li>
+      <% end %>
+    </ul>
+  </div>
+
+  <div data-role="footer" data-position="fixed"> 
+      <h3>Heart Care</h3> 
+  </div>
+</div>

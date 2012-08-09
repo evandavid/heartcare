@@ -1,0 +1,100 @@
+<div data-role="page" data-add-back-btn="true">
+
+  <div data-role="header" data-position="inline">
+    <%= link_to "Back", :action => :index %>
+    <h1><%= @Member.id %></h1>
+    <%= link_to "Edit", :action => :edit, :id => @Member.object %>
+  </div>
+
+  <div data-role="content">
+    <table>
+      
+      <tr>
+    	<td class="itemLabel">Id</td>
+        <td class="itemValue"><%= @Member.id%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Email</td>
+        <td class="itemValue"><%= @Member.email%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">EncryptedPassword</td>
+        <td class="itemValue"><%= @Member.encrypted_password%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">ResetPasswordToken</td>
+        <td class="itemValue"><%= @Member.reset_password_token%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">RememberCreatedAt</td>
+        <td class="itemValue"><%= @Member.remember_created_at%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">ResetPasswordSentAt</td>
+        <td class="itemValue"><%= @Member.reset_password_sent_at%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">SignInCount</td>
+        <td class="itemValue"><%= @Member.sign_in_count%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">CurrentSignInAt</td>
+        <td class="itemValue"><%= @Member.current_sign_in_at%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">LastSignInAt</td>
+        <td class="itemValue"><%= @Member.last_sign_in_at%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">CurrentSignInIp</td>
+        <td class="itemValue"><%= @Member.current_sign_in_ip%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">LastSignInIp</td>
+        <td class="itemValue"><%= @Member.last_sign_in_ip%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">AuthenticationToken</td>
+        <td class="itemValue"><%= @Member.authentication_token%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">CreatedAt</td>
+        <td class="itemValue"><%= @Member.created_at%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">UpdateAt</td>
+        <td class="itemValue"><%= @Member.update_at%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Username</td>
+        <td class="itemValue"><%= @Member.username%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Name</td>
+        <td class="itemValue"><%= @Member.name%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">ParentId</td>
+        <td class="itemValue"><%= @Member.parent_id%></td>
+      </tr>
+      
+    </table>
+  </div>
+
+</div>

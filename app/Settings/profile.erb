@@ -1,0 +1,55 @@
+<div data-role="page">
+
+  <div data-role="header" data-position="fixed">
+    <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">
+      Back
+    </a>
+    <h1>Profile</h1>
+  </div>
+
+  <div data-role="content">
+      <% if @msg %>
+          <div class="error-message"><%= @msg %></div>
+      <% end %>
+    <ul data-role="listview" data-inset="true"> 
+      <li data-role="list-divider" data-divider-theme="a">Profile</li> 
+      <li> 
+        <h3>Username</h3>
+        <p><%=@user.username%></p>
+      </li> 
+       <li> 
+        <h3>Password</h3>
+        <p>***********</p>
+      </li>
+       <li> 
+        <h3>Email</h3>
+        <p><%=@user.email%></p>
+      </li>
+      <li> 
+        <h3>First Name</h3>
+        <p><%=@user.first_name%></p>
+      </li>
+      <li> 
+        <h3>Last Name</h3>
+        <p><%=@user.last_name%></p>
+      </li>
+      <li> 
+        <h3>Address</h3>
+        <p><%=@user.address%></p>
+      </li>
+      <li> 
+        <h3>Mobile</h3>
+        <p><%=@user.mobile%></p>
+      </li> 
+    </ul>
+    <br />
+    <ul data-role="listview" data-inset="true"> 
+      <li><a href="<%= url_for :action => :update %>">Edit Profile</a></li>
+      <li><a href="<%= url_for :action => :update_password %>">Update Password</a></li>
+    </ul> 
+  </div>
+
+  <div data-role="footer" data-position="fixed"> 
+      <h3>Heart Care</h3> 
+  </div>
+</div>

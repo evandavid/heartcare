@@ -1,0 +1,104 @@
+<div data-role="page">
+
+  <div data-role="header" data-position="inline">
+    <%= link_to "Back", :action => :show, :id => @Member.object %>
+    <h1>Edit <%= @Member.id%></h1>
+    <%= link_to "Delete", :action => :delete, :id => @Member.object %>
+  </div>
+
+  <div data-role="content">
+    <form method="POST" action="<%= url_for :action => :update %>">
+      <input type="hidden" name="id" value="<%= @Member.object %>"/>
+      <table>
+          
+          <tr>
+              <td class="itemLabel">Id: </td>
+              <td class="itemValue"><input type="text" name="user[id]" value="<%= @Member.id %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Email: </td>
+              <td class="itemValue"><input type="text" name="user[email]" value="<%= @Member.email %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Encrypted password: </td>
+              <td class="itemValue"><input type="text" name="user[encrypted_password]" value="<%= @Member.encrypted_password %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Reset password token: </td>
+              <td class="itemValue"><input type="text" name="user[reset_password_token]" value="<%= @Member.reset_password_token %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Remember created at: </td>
+              <td class="itemValue"><input type="text" name="user[remember_created_at]" value="<%= @Member.remember_created_at %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Reset password sent at: </td>
+              <td class="itemValue"><input type="text" name="user[reset_password_sent_at]" value="<%= @Member.reset_password_sent_at %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Sign in count: </td>
+              <td class="itemValue"><input type="text" name="user[sign_in_count]" value="<%= @Member.sign_in_count %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Current sign in at: </td>
+              <td class="itemValue"><input type="text" name="user[current_sign_in_at]" value="<%= @Member.current_sign_in_at %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Last sign in at: </td>
+              <td class="itemValue"><input type="text" name="user[last_sign_in_at]" value="<%= @Member.last_sign_in_at %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Current sign in ip: </td>
+              <td class="itemValue"><input type="text" name="user[current_sign_in_ip]" value="<%= @Member.current_sign_in_ip %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Last sign in ip: </td>
+              <td class="itemValue"><input type="text" name="user[last_sign_in_ip]" value="<%= @Member.last_sign_in_ip %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Authentication token: </td>
+              <td class="itemValue"><input type="text" name="user[authentication_token]" value="<%= @Member.authentication_token %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Created at: </td>
+              <td class="itemValue"><input type="text" name="user[created_at]" value="<%= @Member.created_at %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Update at: </td>
+              <td class="itemValue"><input type="text" name="user[update_at]" value="<%= @Member.update_at %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Username: </td>
+              <td class="itemValue"><input type="text" name="user[username]" value="<%= @Member.username %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Name: </td>
+              <td class="itemValue"><input type="text" name="user[name]" value="<%= @Member.name %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Parent: </td>
+              <td class="itemValue"><input type="text" name="user[parent_id]" value="<%= @Member.parent_id %>"/></td>
+          </tr>
+          
+      </table>
+      <input type="submit" value="Update"/>
+    </form>
+  </div>
+
+</div>
