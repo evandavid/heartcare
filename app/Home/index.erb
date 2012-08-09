@@ -1,6 +1,6 @@
 <div data-role="page">
 
-	<div data-role="header" data-position="fixed">
+	<div data-role="header" data-position="fixed" data-fullscreen="true">
     <h1>Home</h1>
     <%if is_logged_in?%>
       <a href="<%= url_for :controller => :Settings, :action => :logout %>" class="ui-btn-right" >
@@ -10,36 +10,36 @@
 	</div>
 
   <div data-role="content">
-    <div class="ui-grid-a"> 
+    <div class="ui-grid-a">
       <div class="ui-block-a index-a">
         <a href="<%= url_for :action => :show %>" >
           <img src="/public/images/heart.png">
           <span class="icon-label">Start</span>
         </a>
-      </div> 
+      </div>
       <div class="ui-block-b index-b">
         <a href="<%= url_for :controller => :Settings, :action => :index %>" >
           <img src="/public/images/process.png">
           <span class="icon-label">Setting</span>
         </a>
-      </div> 
+      </div>
       <div class="ui-block-a index-a">
        <a href="<%= url_for :action => :show %>" >
           <img src="/public/images/user.png">
           <span class="icon-label">Member</span>
         </a>
-      </div> 
+      </div>
       <div class="ui-block-b index-b">
         <a href="<%= url_for :action => :show %>" >
           <img src="/public/images/chart.png">
           <span class="icon-label">Graph</span>
         </a>
-      </div> 
+      </div>
     </div>
   </div>
 
-  <div data-role="footer" data-position="fixed"> 
-      <h3>Heart Care</h3> 
+  <div data-role="footer" data-position="fixed" data-fullscreen="true">
+      <h3>Heart Care</h3>
   </div>
 
 </div>

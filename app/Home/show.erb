@@ -1,6 +1,6 @@
 <div data-role="page" data-add-back-btn="false">
 
-  <div data-role="header" data-position="fixed">
+  <div data-role="header" data-position="fixed" data-fullscreen="true">
     <h1>Monitoring</h1>
     <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">
       Back
@@ -16,48 +16,48 @@
         </div>
       </div>
 
-      <ul data-role="listview" data-inset="true"> 
-        <li data-role="list-divider" data-divider-theme="a">Detail</li> 
-        <li> 
+      <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider" data-divider-theme="a">Detail</li>
+        <li>
           Heart Rate : <span class="ui-li-aside" id="hr_value">0 bpm</span>
-        </li> 
-        <li> 
+        </li>
+        <li>
           Distance : <span class="ui-li-aside" id="distance_value">0 m</span>
         </li>
-        <li> 
+        <li>
           Speed : <span class="ui-li-aside" id="speed_value">0 m/s</span>
         </li>
-        <li> 
+        <li>
           Battery : <span class="ui-li-aside" id="bt_value">0 %</span>
         </li>
-      </ul> 
+      </ul>
 
       <script type="text/javascript">
         function initDonut(data){
           var opts = {
                       lines: 12,
-                      angle: 0, 
-                      lineWidth: 0.1, 
+                      angle: 0,
+                      lineWidth: 0.1,
                       pointer: {
-                        length: 0.9, 
-                        strokeWidth: 0.035 
+                        length: 0.9,
+                        strokeWidth: 0.035
                       },
                       colorStart: '#6FADCF',   // Colors
                       colorStop: '#8FC0DA',    // just experiment with them
                       strokeColor: '#E0E0E0'   // to see which ones work best for you
                     };
-          var target = document.getElementById('canvas-preview'); 
+          var target = document.getElementById('canvas-preview');
           var gauge = new Donut(target).setOptions(opts);
            gauge.setTextField(document.getElementById("preview-textfield"))
           gauge.maxValue = 250; // set max gauge value
           gauge.animationSpeed = 15; // set animation speed (32 is default value)
           gauge.set(data);
         };
-          
+
         function setAnimate(data){
           initDonut(data);
         };
-        
+
         function setHr(data){
           $("#hr_value").html(data);
         }
@@ -78,11 +78,11 @@
         }
 
       </script>
-      
+
   </div>
 
-  <div data-role="footer" data-position="fixed"> 
-      <h3>Heart Care</h3> 
+  <div data-role="footer" data-position="fixed" data-fullscreen="true">
+      <h3>Heart Care</h3>
   </div>
 
 </div>
