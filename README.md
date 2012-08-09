@@ -1,4 +1,4 @@
 heartcare
 =========
 
-Heartcare
+mobile app to monitoring heart beat
