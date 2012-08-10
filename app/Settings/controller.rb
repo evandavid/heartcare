@@ -107,7 +107,8 @@ class SettingsController < ParentController
   def signup_callback
     errCode = @params['error_code'].to_i
     if errCode == 0
-      WebView.navigate Rho::RhoConfig.start_path
+      @msg = "Thank you for registering, please login first"
+      WebView.navigate ( url_for :action => :login, :query => {:msg => "#{@msg}"} )
     else
       msgs = Rho::JSON.parse(@params['body']) 
       puts "==========================="
@@ -148,7 +149,7 @@ class SettingsController < ParentController
     ses.each do |p|
       p.destroy
     end
-    @msg = @params['msg']
+    @msg = Rho::RhoSupport.url_decode(@params['msg'])
     render :action => :login
   end
   
@@ -160,7 +161,7 @@ class SettingsController < ParentController
     errCode = @params['error_code'].to_i
     if errCode == 0
       u = @params['body']['user']
-      User.create( :token => @params['body']['token'], :username => u['username'], :email => u['email'], :password => "", :first_name => u['first_name'], :address => u['address'], :last_name => u['last_name'], :mobile => u['mobile'] )
+      User.create( :token => @params['body']['token'], :username => u['username'], :email => u['email'], :password => "", :first_name => u['first_name'], :address => u['address'], :last_name => u['last_name'], :mobile => u['mobile'], :user_id => u['id'] )
       WebView.navigate Rho::RhoConfig.start_path
     else
       if errCode == Rho::RhoError::ERR_CUSTOMSYNCSERVER

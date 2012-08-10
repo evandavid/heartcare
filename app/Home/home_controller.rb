@@ -9,6 +9,9 @@ class HomeController < ParentController
   def index
     if System.has_network
       if logged_in?
+        msg = User.find(:first)
+        puts "========================"
+        puts msg.inspect
       else
          @msg = "Login First"
          WebView.navigate ( url_for :controller => :Settings, :action => :login, :query => {:msg => @msg} )
@@ -20,6 +23,13 @@ class HomeController < ParentController
 
   # GET /Home/{1}
   def show
+    render
+  end
+
+  def graph
+    @hr = HeartRate.find(:all,:select => ['strtime','heart_rate']).map { |e| [e.strtime, e.heart_rate] }
+    @ds = HeartRate.find(:all,:select => ['strtime','distance']).map { |e| [e.strtime, e.distance] }
+    @sp = HeartRate.find(:all,:select => ['strtime','speed']).map { |e| [e.strtime, e.speed] }
     render
   end
 

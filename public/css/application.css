@@ -10,10 +10,11 @@
 
 /* center icons */ 
 .ui-grid-a {text-align:center; } 
+.index-grid {padding-top: 30px;}
 /* set row height */ 
-.index-a,.index-b {height: 130px; position: relative; padding: 20px 0;} 
+.index-a,.index-b { position: relative; padding: 0;} 
 /* set label size and color */ 
-.icon-label {display:block;font-size:12px; } 
+.icon-label {display:block;font-size:13px; color: #2F96B4;} 
 /* bottom align icons to adjust for uneven icon heights */
 .icon-springboard {position:absolute;bottom:0;width:100%; } 
 a:link, a:visited,a:hover,a:active {text-decoration:none; }

@@ -1,6 +1,6 @@
 <div data-role="page" data-add-back-btn="true">
 
-  <div data-role="header" data-position="fixed" data-fullscreen="true">
+  <div data-role="header" data-theme='e' >
     <h1>Login</h1>
   </div>
 
@@ -16,13 +16,13 @@
         <input type="password" id="password" name="password" class="itemValue" placeholder="password" />
       </div>
       <fieldset class="ui-grid-a">
-        <div class="ui-block-a"><button type="submit" data-theme="f">Login</button></div>
-        <div class="ui-block-b"><a data-role="button" data-theme="e" href="<%= url_for :controller => :Settings, :action => :signup %>">Sign Up</a></div>
+        <div class="ui-block-a"><button type="submit" >Login</button></div>
+        <div class="ui-block-b"><a data-role="button" href="<%= url_for :controller => :Settings, :action => :signup %>">Sign Up</a></div>
       </fieldset>
     </form>
   </div>
 
-  <div data-role="footer" data-position="fixed" data-fullscreen="true">
+  <div data-position="fixed" data-role="footer" data-theme='e' >
       <h3>Heart Care</h3>
   </div>
 

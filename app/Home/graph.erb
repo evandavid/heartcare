@@ -1,0 +1,61 @@
+<div data-role="page" data-add-back-btn="false">
+
+  <div data-role="header" data-theme='e' >
+    <h1>Graph</h1>
+    <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">
+      Back
+    </a>
+  </div>
+
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true">
+      <li data-role="list-divider" data-divider-theme="a">Heart Rate</li>
+      <li>
+        <div id="placeholder" style="width: 300px; height:200px;"></div>
+      </li>
+    </ul>
+    <ul data-role="listview" data-inset="true">
+      <li data-role="list-divider" data-divider-theme="a">Speed</li>
+      <li>
+        <div id="placeholder2" style="width: 300px; height:200px;"></div>
+      </li>
+    </ul>
+    <ul data-role="listview" data-inset="true">
+      <li data-role="list-divider" data-divider-theme="a">Distance</li>
+      <li>
+        <div id="placeholder3" style="width: 300px; height:200px;"></div>
+      </li>
+    </ul>
+
+<script type="text/javascript">
+$(function () {   
+    var p = $.plot($("#placeholder"),[<%=@hr%>],{ xaxis: { mode: "time" } });
+    $("#placeholder").height('200 px');
+    $("#placeholder").width(window.innerWidth*0.85);
+    p.resize();
+    p.setupGrid();
+    p.draw();
+
+    var p2 = $.plot($("#placeholder2"), [<%=@sp%>],{ xaxis: { mode: "time" } });
+    $("#placeholder2").height('200 px');
+    $("#placeholder2").width(window.innerWidth*0.85);
+    p2.resize();
+    p2.setupGrid();
+    p2.draw();
+
+    var p3 = $.plot($("#placeholder3"), [<%=@ds%>],{ xaxis: { mode: "time" } });
+    $("#placeholder3").height('200 px');
+    $("#placeholder3").width(window.innerWidth*0.85);
+    p3.resize();
+    p3.setupGrid();
+    p3.draw();
+});
+</script>
+
+  </div>
+
+  <div data-position="fixed" data-role="footer" data-theme='e' >
+      <h3>Heart Care</h3>
+  </div>
+
+</div>

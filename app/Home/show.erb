@@ -1,6 +1,6 @@
 <div data-role="page" data-add-back-btn="false">
 
-  <div data-role="header" data-position="fixed" data-fullscreen="true">
+  <div data-role="header" data-theme='e' >
     <h1>Monitoring</h1>
     <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">
       Back
@@ -33,6 +33,7 @@
       </ul>
 
       <script type="text/javascript">
+        
         function initDonut(data){
           var opts = {
                       lines: 12,
@@ -81,7 +82,7 @@
 
   </div>
 
-  <div data-role="footer" data-position="fixed" data-fullscreen="true">
+  <div data-position="fixed" data-role="footer" data-theme='e' >
       <h3>Heart Care</h3>
   </div>
 

@@ -135,6 +135,8 @@ class ConnectionController < ParentController
             :stamp15 => message[41],
             :distance => message[49],
             :speed => message[51],
+            :last_check => Time.now.strftime("%Y-%m-%d %H:%M:%S"),
+            :strtime => Time.now.to_i,
             :sync => 0
             )
         end
