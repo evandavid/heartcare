@@ -27,9 +27,9 @@ class HomeController < ParentController
   end
 
   def graph
-    @hr = HeartRate.find(:all,:select => ['strtime','heart_rate']).map { |e| [e.strtime, e.heart_rate] }
-    @ds = HeartRate.find(:all,:select => ['strtime','distance']).map { |e| [e.strtime, e.distance] }
-    @sp = HeartRate.find(:all,:select => ['strtime','speed']).map { |e| [e.strtime, e.speed] }
+    @hr = HeartRate.find(:all,:select => ['strtime','heart_rate']).map { |e| [(e.strtime * 1000), e.heart_rate] }
+    @ds = HeartRate.find(:all,:select => ['strtime','distance']).map { |e| [(e.strtime * 1000), e.distance] }
+    @sp = HeartRate.find(:all,:select => ['strtime','speed']).map { |e| [(e.strtime * 1000), e.speed] }
     render
   end
 
