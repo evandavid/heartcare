@@ -1,0 +1,481 @@
+E 08/14/2012 00:23:20:809 00000ce4                  Net| An error occured connecting to the server: 401 returned.
+I 08/14/2012 00:23:20:810 00000ce4                  Net| Method: POST;Url: http://127.0.0.1:63817/app/Settings/signup_callback
+I 08/14/2012 00:23:20:811 00002c64           HttpServer| Process URI: '/app/Settings/signup_callback'
+I 08/14/2012 00:23:20:813 00002c64                  APP| RHO serve: /app/Settings/signup_callback
+I 08/14/2012 00:23:20:814 00002c64              RhoRuby| require_compiled: Settings/controller
+I 08/14/2012 00:23:20:825 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:23:20:827 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:23:20:829 00002c64              RhoRuby| require_compiled: Member/member
+I 08/14/2012 00:23:20:830 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:23:20:833 00002c64                  APP| Params: {"rho_callback"=>"1", "status"=>"error", "error_code"=>"9", "http_error"=>"401", "headers"=>{"cache-control"=>"no-cache", "connection"=>"keep-alive", "content-length"=>"110", "content-type"=>"application/json; charset=utf-8", "date"=>"Mon, 13 Aug 2012 17:23:20 GMT", "set-cookie"=>"_app_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJTdmZDY1YjdhZGM4ZDFmYzJkNTI5NmQ0MzI4ZGU3YjliBjsAVA%3D%3D--331aa109f1bac27a92d508f5e252001f73114125; path=/; HttpOnly", "status"=>"401 Unauthorized", "x-rack-cache"=>"invalidate, pass", "x-request-id"=>"69fe5be3124286512c7c45fbc0da823a", "x-runtime"=>"0.145616", "x-ua-compatible"=>"IE=Edge,chrome=1"}, "__rho_object"=>{"body"=>"0"}}
+I 08/14/2012 00:23:20:834 00002c64                  APP| ===========================
+I 08/14/2012 00:23:20:834 00002c64                  APP| =========
+I 08/14/2012 00:23:20:834 00002c64                  APP| Email can't be blank, Email can't be blank, Password can't be blank, and Username can't be blank
+I 08/14/2012 00:23:20:834 00001284           MainWindow| navigate: 'http://127.0.0.1:63817/app/Settings/signup?msg=Email%20can%27t%20be%20blank%2C%20Email%20can%27t%20be%20blank%2C%20Password%20can%27t%20be%20blank%2C%20and%20Username%20can%27t%20be%20blank'
+I 08/14/2012 00:23:20:835 00001284           MainWindow| WebView: loading...
+I 08/14/2012 00:23:20:837 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:23:20:839 00002c64           HttpServer| GC End.
+I 08/14/2012 00:23:20:840 00000ce4            AsyncHttp| ThreadQueue blocked for 4294967295 seconds...
+I 08/14/2012 00:23:20:840 00002c64           HttpServer| Process URI: '/app/Settings/signup'
+I 08/14/2012 00:23:20:840 00002c64                  APP| RHO serve: /app/Settings/signup
+I 08/14/2012 00:23:20:841 00002c64              RhoRuby| require_compiled: Settings/controller
+I 08/14/2012 00:23:20:846 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:23:20:847 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:23:20:848 00002c64              RhoRuby| require_compiled: Member/member
+I 08/14/2012 00:23:20:848 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:23:20:850 00002c64                  APP| Params: {"msg"=>"Email can%27t be blank%2C Email can%27t be blank%2C Password can%27t be blank%2C and Username can%27t be blank"}
+I 08/14/2012 00:23:20:850 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Settings/signup.erb
+I 08/14/2012 00:23:20:851 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/layout.erb
+I 08/14/2012 00:23:20:853 00002c64 RHO SettingsController| Layout file: C:/Users/kristian/workspace/heartcare/app/layout.erb. Content size: 3858
+I 08/14/2012 00:23:20:853 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:23:20:854 00001284           MainWindow| WebView: URL changed
+I 08/14/2012 00:23:20:856 00002c64           HttpServer| GC End.
+I 08/14/2012 00:23:20:872 00002c64           HttpServer| Process URI: '/public/jquery/jquery-1.6.4.min.js'
+I 08/14/2012 00:23:20:876 00002c64           HttpServer| Process URI: '/public/jquery/jquery.json-2.3.min.js'
+I 08/14/2012 00:23:20:877 00002c64           HttpServer| Process URI: '/public/js/gauge.js'
+I 08/14/2012 00:23:20:878 00002c64           HttpServer| Process URI: '/public/js/jquery.flot.js'
+I 08/14/2012 00:23:20:879 00002c64           HttpServer| Process URI: '/public/js/jquery.flot.time.js'
+I 08/14/2012 00:23:20:880 00002c64           HttpServer| Process URI: '/public/js/tween-min.js'
+I 08/14/2012 00:23:20:880 00002c64           HttpServer| Process URI: '/public/js/steelseries-min.js'
+I 08/14/2012 00:23:20:928 00002c64           HttpServer| Process URI: '/public/css/Bootstrap.css'
+I 08/14/2012 00:23:20:929 00002c64           HttpServer| Process URI: '/public/jqmobile/jquery.mobile.structure-1.0.1.min.css'
+I 08/14/2012 00:23:21:025 00002c64           HttpServer| Process URI: '/public/css/jqm-icon-pack-1.1.1-fa.css'
+I 08/14/2012 00:23:21:026 00002c64           HttpServer| Process URI: '/public/css/application.css'
+I 08/14/2012 00:23:21:026 00002c64           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0.1.min.js'
+I 08/14/2012 00:23:21:044 00002c64           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I 08/14/2012 00:23:21:187 00002c64           HttpServer| Process URI: '/public/images/back.png'
+I 08/14/2012 00:23:21:188 00002c64           HttpServer| Process URI: '/public/images/reload.png'
+I 08/14/2012 00:23:21:188 00002c64           HttpServer| Process URI: '/public/css/images/divider.png'
+I 08/14/2012 00:23:21:235 00001284           MainWindow| WebView: loaded 
+I 08/14/2012 00:25:19:582 00002c64           HttpServer| Process URI: '/app/Settings/login'
+I 08/14/2012 00:25:19:582 00002c64                  APP| RHO serve: /app/Settings/login
+I 08/14/2012 00:25:19:582 00002c64              RhoRuby| require_compiled: Settings/controller
+I 08/14/2012 00:25:19:588 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:25:19:589 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:25:19:590 00002c64              RhoRuby| require_compiled: Member/member
+I 08/14/2012 00:25:19:590 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:25:19:592 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Settings/login.erb
+I 08/14/2012 00:25:19:594 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:25:19:597 00002c64           HttpServer| GC End.
+I 08/14/2012 00:25:19:618 00001284           MainWindow| WebView: URL changed
+I 08/14/2012 00:25:28:911 00002c64           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/14/2012 00:25:28:912 00002c64                  APP| RHO serve: /app/Settings/do_login
+I 08/14/2012 00:25:28:912 00002c64              RhoRuby| require_compiled: Settings/controller
+I 08/14/2012 00:25:28:917 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:25:28:918 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:25:28:919 00002c64              RhoRuby| require_compiled: Member/member
+I 08/14/2012 00:25:28:920 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:25:28:921 00002c64                  APP| Params: {"login"=>"kristian", "password"=>"arnans"}
+I 08/14/2012 00:25:28:921 00002c64            AsyncHttp| addCommand: POST
+I 08/14/2012 00:25:28:921 00000ce4                  Net| Method: POST;Url: http://heartcare.herokuapp.com/api/v1/tokens.json
+I 08/14/2012 00:25:28:921 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Settings/wait.erb
+I 08/14/2012 00:25:28:922 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:25:28:925 00002c64           HttpServer| GC End.
+I 08/14/2012 00:25:28:934 00001284           MainWindow| WebView: URL changed
+I 08/14/2012 00:25:29:998 00000ce4                  Net| Method: POST;Url: http://127.0.0.1:63817/app/Settings/login_callback
+I 08/14/2012 00:25:30:010 00002c64           HttpServer| Process URI: '/app/Settings/login_callback'
+I 08/14/2012 00:25:30:011 00002c64                  APP| RHO serve: /app/Settings/login_callback
+I 08/14/2012 00:25:30:011 00002c64              RhoRuby| require_compiled: Settings/controller
+I 08/14/2012 00:25:30:022 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:25:30:024 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:25:30:027 00002c64              RhoRuby| require_compiled: Member/member
+I 08/14/2012 00:25:30:028 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:25:30:031 00002c64                  APP| Params: {"rho_callback"=>"1", "status"=>"ok", "http_error"=>"200", "cookies"=>"_app_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJTgxNDlhOTRkMTIxYTllM2E1YjQzYmYyOWM1ZjcyNjUzBjsAVA%3D%3D--db59e29e43f74f26ac8158baec0b3171c00ceada;path=/;", "headers"=>{"cache-control"=>"max-age=0, private, must-revalidate", "connection"=>"keep-alive", "content-length"=>"289", "content-type"=>"application/json; charset=utf-8", "date"=>"Mon, 13 Aug 2012 17:25:30 GMT", "etag"=>"\"58b9457cb8c6bc49924253c4c38b779a\"", "set-cookie"=>"_app_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJTgxNDlhOTRkMTIxYTllM2E1YjQzYmYyOWM1ZjcyNjUzBjsAVA%3D%3D--db59e29e43f74f26ac8158baec0b3171c00ceada; path=/; HttpOnly", "status"=>"200 OK", "x-rack-cache"=>"invalidate, pass", "x-request-id"=>"202dd5e5bef5e4eda5ba5d1acf2f38dd", "x-runtime"=>"0.170630", "x-ua-compatible"=>"IE=Edge,chrome=1"}, "__rho_object"=>{"body"=>"0"}}
+I 08/14/2012 00:25:30:135 00001284           MainWindow| navigate: 'http://127.0.0.1:63817/app/Home'
+I 08/14/2012 00:25:30:135 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:25:30:136 00000ce4            AsyncHttp| ThreadQueue blocked for 4294967295 seconds...
+I 08/14/2012 00:25:30:137 00001284           MainWindow| WebView: loading...
+I 08/14/2012 00:25:30:140 00002c64           HttpServer| GC End.
+I 08/14/2012 00:25:30:151 00002c64           HttpServer| Process URI: '/app/Home'
+I 08/14/2012 00:25:30:152 00002c64                  APP| RHO serve: /app/Home
+I 08/14/2012 00:25:30:152 00002c64              RhoRuby| require_compiled: Home/home_controller
+I 08/14/2012 00:25:30:155 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:25:30:157 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:25:30:159 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:25:30:163 00002c64                  APP| ========================
+I 08/14/2012 00:25:30:164 00002c64                  APP| {:source_id=>40003, :object=>"114135930039218.95", :address=>"bandung", :email=>"admin@admin.com", :first_name=>"Evan david", :last_name=>"kristian", :mobile=>"08562155500", :password=>"", :token=>"8ZVJqawKiRqmmEXaFPLd", :user_id=>"2", :username=>"kristian"}
+I 08/14/2012 00:25:30:164 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Home/index.erb
+I 08/14/2012 00:25:30:167 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/layout.erb
+I 08/14/2012 00:25:30:168 00002c64   RHO HomeController| Layout file: C:/Users/kristian/workspace/heartcare/app/layout.erb. Content size: 4369
+I 08/14/2012 00:25:30:168 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:25:30:169 00001284           MainWindow| WebView: URL changed
+I 08/14/2012 00:25:30:171 00002c64           HttpServer| GC End.
+I 08/14/2012 00:25:30:193 00002c64           HttpServer| Process URI: '/public/jquery/jquery-1.6.4.min.js'
+I 08/14/2012 00:25:30:198 00002c64           HttpServer| Process URI: '/public/jquery/jquery.json-2.3.min.js'
+I 08/14/2012 00:25:30:198 00002c64           HttpServer| Process URI: '/public/js/gauge.js'
+I 08/14/2012 00:25:30:198 00002c64           HttpServer| Process URI: '/public/js/jquery.flot.js'
+I 08/14/2012 00:25:30:199 00002c64           HttpServer| Process URI: '/public/js/jquery.flot.time.js'
+I 08/14/2012 00:25:30:200 00002c64           HttpServer| Process URI: '/public/js/tween-min.js'
+I 08/14/2012 00:25:30:200 00002c64           HttpServer| Process URI: '/public/js/steelseries-min.js'
+I 08/14/2012 00:25:30:268 00002c64           HttpServer| Process URI: '/public/css/Bootstrap.css'
+I 08/14/2012 00:25:30:269 00002c64           HttpServer| Process URI: '/public/jqmobile/jquery.mobile.structure-1.0.1.min.css'
+I 08/14/2012 00:25:30:270 00002c64           HttpServer| Process URI: '/public/css/jqm-icon-pack-1.1.1-fa.css'
+I 08/14/2012 00:25:30:270 00002c64           HttpServer| Process URI: '/public/css/application.css'
+I 08/14/2012 00:25:30:270 00002c64           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0.1.min.js'
+I 08/14/2012 00:25:30:367 00002c64           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I 08/14/2012 00:25:30:491 00002c64           HttpServer| Process URI: '/public/images/reload.png'
+I 08/14/2012 00:25:30:491 00002c64           HttpServer| Process URI: '/public/images/menu/heart.png'
+I 08/14/2012 00:25:30:492 00002c64           HttpServer| Process URI: '/public/images/menu/chart.png'
+I 08/14/2012 00:25:30:492 00002c64           HttpServer| Process URI: '/public/images/menu/gears.png'
+I 08/14/2012 00:25:30:492 00002c64           HttpServer| Process URI: '/public/images/menu/connection.png'
+I 08/14/2012 00:25:30:493 00002c64           HttpServer| Process URI: '/public/images/menu/signal.png'
+I 08/14/2012 00:25:30:525 00002c64           HttpServer| Process URI: '/public/images/menu/onoff.png'
+I 08/14/2012 00:25:30:626 00002c64           HttpServer| Process URI: '/public/css/images/divider.png'
+I 08/14/2012 00:25:30:637 00001284           MainWindow| WebView: loaded 
+I 08/14/2012 00:29:42:070 00002c64           HttpServer| Process URI: '/app/Connection'
+I 08/14/2012 00:29:42:071 00002c64                  APP| RHO serve: /app/Connection
+I 08/14/2012 00:29:42:072 00002c64              RhoRuby| require_compiled: Connection/connection_controller
+I 08/14/2012 00:29:42:076 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:29:42:077 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Connection/index.erb
+I 08/14/2012 00:29:42:080 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:29:42:082 00002c64           HttpServer| GC End.
+I 08/14/2012 00:29:42:113 00001284           MainWindow| WebView: URL changed
+I 08/14/2012 00:29:42:120 00002c64           HttpServer| Process URI: '/public/images/back.png'
+I 08/14/2012 00:32:06:458 00001284           MainWindow| WebView: URL changed
+I 08/14/2012 00:32:07:964 00002c64           HttpServer| Process URI: '/app/Home/show'
+I 08/14/2012 00:32:07:965 00002c64                  APP| RHO serve: /app/Home/show
+I 08/14/2012 00:32:07:966 00002c64              RhoRuby| require_compiled: Home/home_controller
+I 08/14/2012 00:32:07:967 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:32:07:968 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:32:07:969 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:32:07:971 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Home/show.erb
+I 08/14/2012 00:32:07:988 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:32:07:991 00002c64           HttpServer| GC End.
+I 08/14/2012 00:32:08:114 00001284           MainWindow| WebView: URL changed
+I 08/14/2012 00:32:42:736 00002c64           HttpServer| Process URI: '/app/Settings/do_refresh'
+I 08/14/2012 00:32:42:737 00002c64                  APP| RHO serve: /app/Settings/do_refresh
+I 08/14/2012 00:32:42:737 00002c64              RhoRuby| require_compiled: Settings/controller
+I 08/14/2012 00:32:42:750 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:32:42:752 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:32:42:753 00002c64              RhoRuby| require_compiled: Member/member
+I 08/14/2012 00:32:42:755 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:32:42:758 00001284           MainWindow| refresh
+I 08/14/2012 00:32:42:759 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:32:42:763 00002c64           HttpServer| GC End.
+I 08/14/2012 00:32:42:767 00001284           MainWindow| WebView: loading...
+I 08/14/2012 00:32:42:770 00002c64           HttpServer| Process URI: '/app/Home/show'
+I 08/14/2012 00:32:42:770 00002c64                  APP| RHO serve: /app/Home/show
+I 08/14/2012 00:32:42:771 00002c64              RhoRuby| require_compiled: Home/home_controller
+I 08/14/2012 00:32:42:773 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:32:42:773 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:32:42:774 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:32:42:775 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Home/show.erb
+I 08/14/2012 00:32:42:778 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/layout.erb
+I 08/14/2012 00:32:42:779 00002c64   RHO HomeController| Layout file: C:/Users/kristian/workspace/heartcare/app/layout.erb. Content size: 7039
+I 08/14/2012 00:32:42:779 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:32:42:781 00001284           MainWindow| WebView: URL changed
+I 08/14/2012 00:32:42:782 00002c64           HttpServer| GC End.
+I 08/14/2012 00:32:42:800 00002c64           HttpServer| Process URI: '/public/jquery/jquery-1.6.4.min.js'
+I 08/14/2012 00:32:42:805 00002c64           HttpServer| Process URI: '/public/jquery/jquery.json-2.3.min.js'
+I 08/14/2012 00:32:42:806 00002c64           HttpServer| Process URI: '/public/js/gauge.js'
+I 08/14/2012 00:32:42:806 00002c64           HttpServer| Process URI: '/public/js/jquery.flot.js'
+I 08/14/2012 00:32:42:807 00002c64           HttpServer| Process URI: '/public/js/jquery.flot.time.js'
+I 08/14/2012 00:32:42:807 00002c64           HttpServer| Process URI: '/public/js/tween-min.js'
+I 08/14/2012 00:32:42:808 00002c64           HttpServer| Process URI: '/public/js/steelseries-min.js'
+I 08/14/2012 00:32:42:813 00002c64           HttpServer| Process URI: '/public/css/Bootstrap.css'
+I 08/14/2012 00:32:42:813 00002c64           HttpServer| Process URI: '/public/jqmobile/jquery.mobile.structure-1.0.1.min.css'
+I 08/14/2012 00:32:42:814 00002c64           HttpServer| Process URI: '/public/css/jqm-icon-pack-1.1.1-fa.css'
+I 08/14/2012 00:32:42:873 00002c64           HttpServer| Process URI: '/public/css/application.css'
+I 08/14/2012 00:32:42:874 00002c64           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0.1.min.js'
+I 08/14/2012 00:32:42:965 00002c64           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I 08/14/2012 00:32:43:177 00002c64           HttpServer| Process URI: '/public/images/back.png'
+I 08/14/2012 00:32:43:177 00002c64           HttpServer| Process URI: '/public/images/reload.png'
+I 08/14/2012 00:32:43:178 00002c64           HttpServer| Process URI: '/public/css/images/divider.png'
+I 08/14/2012 00:32:43:196 00001284           MainWindow| WebView: loaded 
+I 08/14/2012 00:37:52:665 00002c64           HttpServer| Process URI: '/app/Home'
+I 08/14/2012 00:37:52:666 00002c64                  APP| RHO serve: /app/Home
+I 08/14/2012 00:37:52:666 00002c64              RhoRuby| require_compiled: Home/home_controller
+I 08/14/2012 00:37:52:668 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:37:52:669 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:37:52:670 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:37:52:671 00002c64                  APP| ========================
+I 08/14/2012 00:37:52:671 00002c64                  APP| {:source_id=>40003, :object=>"114135930039218.95", :address=>"bandung", :email=>"admin@admin.com", :first_name=>"Evan david", :last_name=>"kristian", :mobile=>"08562155500", :password=>"", :token=>"8ZVJqawKiRqmmEXaFPLd", :user_id=>"2", :username=>"kristian"}
+I 08/14/2012 00:37:52:672 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Home/index.erb
+I 08/14/2012 00:37:52:674 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:37:52:676 00002c64           HttpServer| GC End.
+I 08/14/2012 00:37:52:714 00001284           MainWindow| WebView: URL changed
+I 08/14/2012 00:37:52:728 00002c64           HttpServer| Process URI: '/public/images/menu/heart.png'
+I 08/14/2012 00:37:52:728 00002c64           HttpServer| Process URI: '/public/images/menu/chart.png'
+I 08/14/2012 00:37:52:729 00002c64           HttpServer| Process URI: '/public/images/menu/gears.png'
+I 08/14/2012 00:37:52:729 00002c64           HttpServer| Process URI: '/public/images/menu/connection.png'
+I 08/14/2012 00:37:52:729 00002c64           HttpServer| Process URI: '/public/images/menu/signal.png'
+I 08/14/2012 00:37:52:730 00002c64           HttpServer| Process URI: '/public/images/menu/onoff.png'
+I 08/14/2012 00:37:54:110 00002c64           HttpServer| Process URI: '/app/Home/graph'
+I 08/14/2012 00:37:54:111 00002c64                  APP| RHO serve: /app/Home/graph
+I 08/14/2012 00:37:54:111 00002c64              RhoRuby| require_compiled: Home/home_controller
+I 08/14/2012 00:37:54:115 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:37:54:117 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:37:54:118 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:37:54:131 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Home/graph.erb
+I 08/14/2012 00:37:54:147 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:37:54:150 00002c64           HttpServer| GC End.
+I 08/14/2012 00:37:54:326 00001284           MainWindow| WebView: URL changed
+I 08/14/2012 00:43:06:205 00002c64           HttpServer| Process URI: '/app/Home'
+I 08/14/2012 00:43:06:206 00002c64                  APP| RHO serve: /app/Home
+I 08/14/2012 00:43:06:207 00002c64              RhoRuby| require_compiled: Home/home_controller
+I 08/14/2012 00:43:06:210 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:43:06:211 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:43:06:213 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:43:06:217 00002c64                  APP| ========================
+I 08/14/2012 00:43:06:217 00002c64                  APP| {:source_id=>40003, :object=>"114135930039218.95", :address=>"bandung", :email=>"admin@admin.com", :first_name=>"Evan david", :last_name=>"kristian", :mobile=>"08562155500", :password=>"", :token=>"8ZVJqawKiRqmmEXaFPLd", :user_id=>"2", :username=>"kristian"}
+I 08/14/2012 00:43:06:218 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Home/index.erb
+I 08/14/2012 00:43:06:221 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:43:06:225 00002c64           HttpServer| GC End.
+I 08/14/2012 00:43:06:243 00001284           MainWindow| WebView: URL changed
+I 08/14/2012 00:43:10:095 00002c64           HttpServer| Process URI: '/app/Settings'
+I 08/14/2012 00:43:10:096 00002c64                  APP| RHO serve: /app/Settings
+I 08/14/2012 00:43:10:096 00002c64              RhoRuby| require_compiled: Settings/controller
+I 08/14/2012 00:43:10:108 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:43:10:110 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:43:10:112 00002c64              RhoRuby| require_compiled: Member/member
+I 08/14/2012 00:43:10:113 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:43:10:115 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Settings/index.erb
+I 08/14/2012 00:43:10:120 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:43:10:124 00002c64           HttpServer| GC End.
+I 08/14/2012 00:43:10:145 00001284           MainWindow| WebView: URL changed
+I 08/14/2012 00:43:10:336 00002c64           HttpServer| Process URI: '/public/css/font/fontawesome-webfont.ttf'
+I 08/14/2012 00:43:10:356 00002c64           HttpServer| Process URI: '/public/css/images/icons-18-white.png'
+I 08/14/2012 00:43:10:373 00002c64           HttpServer| Process URI: '/public/css/font/fontawesome-webfont.svgz'
+I 08/14/2012 00:43:10:426 00002c64           HttpServer| Process URI: '/public/css/font/fontawesome-webfont.svg'
+I 08/14/2012 00:44:37:716 00002c64           HttpServer| Process URI: '/app/Settings/profile'
+I 08/14/2012 00:44:37:717 00002c64                  APP| RHO serve: /app/Settings/profile
+I 08/14/2012 00:44:37:717 00002c64              RhoRuby| require_compiled: Settings/controller
+I 08/14/2012 00:44:37:727 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:44:37:728 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:44:37:729 00002c64              RhoRuby| require_compiled: Member/member
+I 08/14/2012 00:44:37:729 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:44:37:732 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Settings/profile.erb
+I 08/14/2012 00:44:37:740 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:44:37:743 00002c64           HttpServer| GC End.
+I 08/14/2012 00:44:37:764 00001284           MainWindow| WebView: URL changed
+I 08/14/2012 00:47:06:856 00002c64           HttpServer| Process URI: '/app/Settings/update'
+I 08/14/2012 00:47:06:856 00002c64                  APP| RHO serve: /app/Settings/update
+I 08/14/2012 00:47:06:857 00002c64              RhoRuby| require_compiled: Settings/controller
+I 08/14/2012 00:47:06:862 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:47:06:863 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:47:06:864 00002c64              RhoRuby| require_compiled: Member/member
+I 08/14/2012 00:47:06:865 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:47:06:881 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Settings/update.erb
+I 08/14/2012 00:47:06:900 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:47:06:903 00002c64           HttpServer| GC End.
+I 08/14/2012 00:47:06:946 00001284           MainWindow| WebView: URL changed
+I 08/14/2012 00:48:16:211 00002c64           HttpServer| Process URI: '/app/Settings/profile'
+I 08/14/2012 00:48:16:212 00002c64                  APP| RHO serve: /app/Settings/profile
+I 08/14/2012 00:48:16:213 00002c64              RhoRuby| require_compiled: Settings/controller
+I 08/14/2012 00:48:16:224 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:48:16:226 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:48:16:228 00002c64              RhoRuby| require_compiled: Member/member
+I 08/14/2012 00:48:16:229 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:48:16:235 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Settings/profile.erb
+I 08/14/2012 00:48:16:239 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:48:16:244 00002c64           HttpServer| GC End.
+I 08/14/2012 00:48:16:270 00001284           MainWindow| WebView: URL changed
+I 08/14/2012 00:48:18:711 00002c64           HttpServer| Process URI: '/app/Settings/update_password'
+I 08/14/2012 00:48:18:711 00002c64                  APP| RHO serve: /app/Settings/update_password
+I 08/14/2012 00:48:18:711 00002c64              RhoRuby| require_compiled: Settings/controller
+I 08/14/2012 00:48:18:715 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:48:18:716 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:48:18:717 00002c64              RhoRuby| require_compiled: Member/member
+I 08/14/2012 00:48:18:717 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:48:18:735 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Settings/update_password.erb
+I 08/14/2012 00:48:18:748 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:48:18:750 00002c64           HttpServer| GC End.
+I 08/14/2012 00:48:18:772 00001284           MainWindow| WebView: URL changed
+min.js'
+I 08/14/2012 00:18:31:256 00002c64           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I 08/14/2012 00:18:31:391 00002c64           HttpServer| Process URI: '/public/images/reload.png'
+I 08/14/2012 00:18:31:391 00002c64           HttpServer| Process URI: '/public/css/images/divider.png'
+I 08/14/2012 00:18:31:396 00001284           MainWindow| WebView: loaded 
+I 08/14/2012 00:18:32:075 00002c64           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/14/2012 00:18:32:076 00002c64                  APP| RHO serve: /app/Settings/do_login
+I 08/14/2012 00:18:32:076 00002c64              RhoRuby| require_compiled: Settings/controller
+I 08/14/2012 00:18:32:081 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:18:32:082 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:18:32:083 00002c64              RhoRuby| require_compiled: Member/member
+I 08/14/2012 00:18:32:083 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:18:32:084 00002c64                  APP| Params: {"login"=>"", "password"=>""}
+I 08/14/2012 00:18:32:085 00002c64            AsyncHttp| addCommand: POST
+I 08/14/2012 00:18:32:085 00000ce4            AsyncHttp| Starting main routine...
+I 08/14/2012 00:18:32:085 00000ce4                  Net| Method: POST;Url: http://heartcare.herokuapp.com/api/v1/tokens.json
+I 08/14/2012 00:18:32:085 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Settings/wait.erb
+I 08/14/2012 00:18:32:086 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:18:32:088 00002c64           HttpServer| GC End.
+I 08/14/2012 00:18:32:099 00001284           MainWindow| WebView: URL changed
+E 08/14/2012 00:18:32:576 00000ce4                  Net| An error occured connecting to the server: 401 returned.
+I 08/14/2012 00:18:32:577 00000ce4                  Net| Method: POST;Url: http://127.0.0.1:63817/app/Settings/login_callback
+I 08/14/2012 00:18:32:594 00002c64           HttpServer| Process URI: '/app/Settings/login_callback'
+I 08/14/2012 00:18:32:595 00002c64                  APP| RHO serve: /app/Settings/login_callback
+I 08/14/2012 00:18:32:599 00002c64              RhoRuby| require_compiled: Settings/controller
+I 08/14/2012 00:18:32:604 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:18:32:656 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:18:32:656 00002c64              RhoRuby| require_compiled: Member/member
+I 08/14/2012 00:18:32:657 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:18:32:658 00002c64                  APP| Params: {"rho_callback"=>"1", "status"=>"error", "error_code"=>"9", "http_error"=>"401", "headers"=>{"cache-control"=>"no-cache", "connection"=>"keep-alive", "content-type"=>"application/json; charset=utf-8", "date"=>"Mon, 13 Aug 2012 17:18:32 GMT", "set-cookie"=>"_app_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJTk3MGVhNWQ0MzVjMWY4ODJmZjFhMDE3MzU1ZjQ2ZGU2BjsAVA%3D%3D--80b8ac0ccbefbd780a24f20caf82a36aab7de969; path=/; HttpOnly", "status"=>"401 Unauthorized", "transfer-encoding"=>"chunked", "x-rack-cache"=>"invalidate, pass", "x-request-id"=>"433db4da00a2fa17af38832b150dfccc", "x-runtime"=>"0.058293", "x-ua-compatible"=>"IE=Edge,chrome=1"}, "__rho_object"=>{"body"=>"0"}}
+I 08/14/2012 00:18:32:658 00001284           MainWindow| navigate: 'http://127.0.0.1:63817/app/Settings/login?msg=Invalid%20username%20or%20passoword.'
+I 08/14/2012 00:18:32:658 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:18:32:658 00001284           MainWindow| WebView: loading...
+I 08/14/2012 00:18:32:659 00000ce4            AsyncHttp| ThreadQueue blocked for 4294967295 seconds...
+I 08/14/2012 00:18:32:660 00002c64           HttpServer| GC End.
+I 08/14/2012 00:18:32:661 00002c64           HttpServer| Process URI: '/app/Settings/login'
+I 08/14/2012 00:18:32:661 00002c64                  APP| RHO serve: /app/Settings/login
+I 08/14/2012 00:18:32:661 00002c64              RhoRuby| require_compiled: Settings/controller
+I 08/14/2012 00:18:32:664 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:18:32:665 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:18:32:666 00002c64              RhoRuby| require_compiled: Member/member
+I 08/14/2012 00:18:32:666 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:18:32:667 00002c64                  APP| Params: {"msg"=>"Invalid username or passoword."}
+I 08/14/2012 00:18:32:667 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Settings/login.erb
+I 08/14/2012 00:18:32:668 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/layout.erb
+I 08/14/2012 00:18:32:668 00002c64 RHO SettingsController| Layout file: C:/Users/kristian/workspace/heartcare/app/layout.erb. Content size: 3540
+I 08/14/2012 00:18:32:669 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:18:32:669 00001284           MainWindow| WebView: URL changed
+I 08/14/2012 00:18:32:671 00002c64           HttpServer| GC End.
+I 08/14/2012 00:18:32:683 00002c64           HttpServer| Process URI: '/public/jquery/jquery-1.6.4.min.js'
+I 08/14/2012 00:18:32:687 00002c64           HttpServer| Process URI: '/public/jquery/jquery.json-2.3.min.js'
+I 08/14/2012 00:18:32:688 00002c64           HttpServer| Process URI: '/public/js/gauge.js'
+I 08/14/2012 00:18:32:688 00002c64           HttpServer| Process URI: '/public/js/jquery.flot.js'
+I 08/14/2012 00:18:32:689 00002c64           HttpServer| Process URI: '/public/js/jquery.flot.time.js'
+I 08/14/2012 00:18:32:690 00002c64           HttpServer| Process URI: '/public/js/tween-min.js'
+I 08/14/2012 00:18:32:691 00002c64           HttpServer| Process URI: '/public/js/steelseries-min.js'
+I 08/14/2012 00:18:32:758 00002c64           HttpServer| Process URI: '/public/css/Bootstrap.css'
+I 08/14/2012 00:18:32:758 00002c64           HttpServer| Process URI: '/public/jqmobile/jquery.mobile.structure-1.0.1.min.css'
+I 08/14/2012 00:18:32:759 00002c64           HttpServer| Process URI: '/public/css/jqm-icon-pack-1.1.1-fa.css'
+I 08/14/2012 00:18:32:759 00002c64           HttpServer| Process URI: '/public/css/application.css'
+I 08/14/2012 00:18:32:759 00002c64           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0.1.min.js'
+I 08/14/2012 00:18:32:851 00002c64           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I 08/14/2012 00:18:32:986 00002c64           HttpServer| Process URI: '/public/images/reload.png'
+I 08/14/2012 00:18:32:986 00002c64           HttpServer| Process URI: '/public/css/images/divider.png'
+I 08/14/2012 00:18:33:004 00001284           MainWindow| WebView: loaded 
+I 08/14/2012 00:18:35:731 00001284           MainWindow| navigate: 'http://127.0.0.1:63817/app/Home'
+I 08/14/2012 00:18:35:732 00001284           MainWindow| WebView: loading...
+I 08/14/2012 00:18:35:734 00002c64           HttpServer| Process URI: '/app/Home'
+I 08/14/2012 00:18:35:735 00002c64                  APP| RHO serve: /app/Home
+I 08/14/2012 00:18:35:735 00002c64              RhoRuby| require_compiled: Home/home_controller
+I 08/14/2012 00:18:35:738 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:18:35:740 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:18:35:742 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:18:35:745 00001284           MainWindow| navigate: 'http://127.0.0.1:63817/app/Settings/login?msg=Login%20First'
+I 08/14/2012 00:18:35:746 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Home/index.erb
+I 08/14/2012 00:18:35:746 00001284           MainWindow| WebView: failed 
+I 08/14/2012 00:18:35:746 00001284           MainWindow| WebView: loading...
+I 08/14/2012 00:18:35:749 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/layout.erb
+I 08/14/2012 00:18:35:750 00002c64   RHO HomeController| Layout file: C:/Users/kristian/workspace/heartcare/app/layout.erb. Content size: 4369
+I 08/14/2012 00:18:35:751 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:18:35:753 00002c64           HttpServer| GC End.
+I 08/14/2012 00:18:35:754 00002c64           HttpServer| Process URI: '/app/Settings/login'
+I 08/14/2012 00:18:35:754 00002c64                  APP| RHO serve: /app/Settings/login
+I 08/14/2012 00:18:35:754 00002c64              RhoRuby| require_compiled: Settings/controller
+I 08/14/2012 00:18:35:760 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:18:35:761 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:18:35:762 00002c64              RhoRuby| require_compiled: Member/member
+I 08/14/2012 00:18:35:762 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:18:35:763 00002c64                  APP| Params: {"msg"=>"Login First"}
+I 08/14/2012 00:18:35:764 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Settings/login.erb
+I 08/14/2012 00:18:35:765 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/layout.erb
+I 08/14/2012 00:18:35:766 00002c64 RHO SettingsController| Layout file: C:/Users/kristian/workspace/heartcare/app/layout.erb. Content size: 3521
+I 08/14/2012 00:18:35:767 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:18:35:769 00002c64           HttpServer| GC End.
+I 08/14/2012 00:18:35:772 00001284           MainWindow| WebView: URL changed
+I 08/14/2012 00:18:35:788 00002c64           HttpServer| Process URI: '/public/jquery/jquery-1.6.4.min.js'
+I 08/14/2012 00:18:35:790 00002c64           HttpServer| Process URI: '/public/jquery/jquery.json-2.3.min.js'
+I 08/14/2012 00:18:35:791 00002c64           HttpServer| Process URI: '/public/js/gauge.js'
+I 08/14/2012 00:18:35:791 00002c64           HttpServer| Process URI: '/public/js/jquery.flot.js'
+I 08/14/2012 00:18:35:833 00002c64           HttpServer| Process URI: '/public/js/jquery.flot.time.js'
+I 08/14/2012 00:18:35:833 00002c64           HttpServer| Process URI: '/public/js/tween-min.js'
+I 08/14/2012 00:18:35:841 00002c64           HttpServer| Process URI: '/public/js/steelseries-min.js'
+I 08/14/2012 00:18:35:860 00002c64           HttpServer| Process URI: '/public/css/Bootstrap.css'
+I 08/14/2012 00:18:35:861 00002c64           HttpServer| Process URI: '/public/jqmobile/jquery.mobile.structure-1.0.1.min.css'
+I 08/14/2012 00:18:35:862 00002c64           HttpServer| Process URI: '/public/css/jqm-icon-pack-1.1.1-fa.css'
+I 08/14/2012 00:18:35:862 00002c64           HttpServer| Process URI: '/public/css/application.css'
+I 08/14/2012 00:18:35:863 00002c64           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0.1.min.js'
+I 08/14/2012 00:18:35:952 00002c64           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I 08/14/2012 00:18:36:089 00002c64           HttpServer| Process URI: '/public/images/reload.png'
+I 08/14/2012 00:18:36:090 00002c64           HttpServer| Process URI: '/public/css/images/divider.png'
+I 08/14/2012 00:18:36:106 00001284           MainWindow| WebView: loaded 
+I 08/14/2012 00:21:15:656 00002c64           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/14/2012 00:21:15:657 00002c64                  APP| RHO serve: /app/Settings/do_login
+I 08/14/2012 00:21:15:657 00002c64              RhoRuby| require_compiled: Settings/controller
+I 08/14/2012 00:21:15:662 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:21:15:663 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:21:15:664 00002c64              RhoRuby| require_compiled: Member/member
+I 08/14/2012 00:21:15:665 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:21:15:666 00002c64                  APP| Params: {"login"=>"", "password"=>""}
+I 08/14/2012 00:21:15:666 00002c64            AsyncHttp| addCommand: POST
+I 08/14/2012 00:21:15:666 00000ce4                  Net| Method: POST;Url: http://heartcare.herokuapp.com/api/v1/tokens.json
+I 08/14/2012 00:21:15:666 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Settings/wait.erb
+I 08/14/2012 00:21:15:667 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:21:15:673 00002c64           HttpServer| GC End.
+I 08/14/2012 00:21:15:683 00001284           MainWindow| WebView: URL changed
+E 08/14/2012 00:21:16:465 00000ce4                  Net| An error occured connecting to the server: 401 returned.
+I 08/14/2012 00:21:16:466 00000ce4                  Net| Method: POST;Url: http://127.0.0.1:63817/app/Settings/login_callback
+I 08/14/2012 00:21:16:470 00002c64           HttpServer| Process URI: '/app/Settings/login_callback'
+I 08/14/2012 00:21:16:470 00002c64                  APP| RHO serve: /app/Settings/login_callback
+I 08/14/2012 00:21:16:471 00002c64              RhoRuby| require_compiled: Settings/controller
+I 08/14/2012 00:21:16:483 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:21:16:485 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:21:16:486 00002c64              RhoRuby| require_compiled: Member/member
+I 08/14/2012 00:21:16:487 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:21:16:488 00002c64                  APP| Params: {"rho_callback"=>"1", "status"=>"error", "error_code"=>"9", "http_error"=>"401", "headers"=>{"cache-control"=>"no-cache", "connection"=>"keep-alive", "content-length"=>"44", "content-type"=>"application/json; charset=utf-8", "date"=>"Mon, 13 Aug 2012 17:21:16 GMT", "set-cookie"=>"_app_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJTZkMjc3MDlkMjI2ZDc1ZjQ1ZTlmZWQ0ODA2ZjUyYjM0BjsAVA%3D%3D--0120635c0b2d9f1f4fe93f375639ea45a165fa09; path=/; HttpOnly", "status"=>"401 Unauthorized", "x-rack-cache"=>"invalidate, pass", "x-request-id"=>"df92fe79408345891983aef47d891d3f", "x-runtime"=>"0.103525", "x-ua-compatible"=>"IE=Edge,chrome=1"}, "__rho_object"=>{"body"=>"0"}}
+I 08/14/2012 00:21:16:489 00001284           MainWindow| navigate: 'http://127.0.0.1:63817/app/Settings/login?msg=Invalid%20username%20or%20passoword.'
+I 08/14/2012 00:21:16:489 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:21:16:489 00001284           MainWindow| WebView: loading...
+I 08/14/2012 00:21:16:491 00000ce4            AsyncHttp| ThreadQueue blocked for 4294967295 seconds...
+I 08/14/2012 00:21:16:492 00002c64           HttpServer| GC End.
+I 08/14/2012 00:21:16:492 00002c64           HttpServer| Process URI: '/app/Settings/login'
+I 08/14/2012 00:21:16:492 00002c64                  APP| RHO serve: /app/Settings/login
+I 08/14/2012 00:21:16:493 00002c64              RhoRuby| require_compiled: Settings/controller
+I 08/14/2012 00:21:16:498 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:21:16:499 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:21:16:500 00002c64              RhoRuby| require_compiled: Member/member
+I 08/14/2012 00:21:16:501 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:21:16:502 00002c64                  APP| Params: {"msg"=>"Invalid username or passoword."}
+I 08/14/2012 00:21:16:502 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Settings/login.erb
+I 08/14/2012 00:21:16:504 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/layout.erb
+I 08/14/2012 00:21:16:505 00002c64 RHO SettingsController| Layout file: C:/Users/kristian/workspace/heartcare/app/layout.erb. Content size: 3540
+I 08/14/2012 00:21:16:506 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:21:16:507 00001284           MainWindow| WebView: URL changed
+I 08/14/2012 00:21:16:508 00002c64           HttpServer| GC End.
+I 08/14/2012 00:21:16:524 00002c64           HttpServer| Process URI: '/public/jquery/jquery-1.6.4.min.js'
+I 08/14/2012 00:21:16:529 00002c64           HttpServer| Process URI: '/public/jquery/jquery.json-2.3.min.js'
+I 08/14/2012 00:21:16:530 00002c64           HttpServer| Process URI: '/public/js/gauge.js'
+I 08/14/2012 00:21:16:530 00002c64           HttpServer| Process URI: '/public/js/jquery.flot.js'
+I 08/14/2012 00:21:16:577 00002c64           HttpServer| Process URI: '/public/js/jquery.flot.time.js'
+I 08/14/2012 00:21:16:578 00002c64           HttpServer| Process URI: '/public/js/tween-min.js'
+I 08/14/2012 00:21:16:578 00002c64           HttpServer| Process URI: '/public/js/steelseries-min.js'
+I 08/14/2012 00:21:16:599 00002c64           HttpServer| Process URI: '/public/css/Bootstrap.css'
+I 08/14/2012 00:21:16:600 00002c64           HttpServer| Process URI: '/public/jqmobile/jquery.mobile.structure-1.0.1.min.css'
+I 08/14/2012 00:21:16:601 00002c64           HttpServer| Process URI: '/public/css/jqm-icon-pack-1.1.1-fa.css'
+I 08/14/2012 00:21:16:602 00002c64           HttpServer| Process URI: '/public/css/application.css'
+I 08/14/2012 00:21:16:602 00002c64           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0.1.min.js'
+I 08/14/2012 00:21:16:679 00002c64           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I 08/14/2012 00:21:16:828 00002c64           HttpServer| Process URI: '/public/images/reload.png'
+I 08/14/2012 00:21:16:829 00002c64           HttpServer| Process URI: '/public/css/images/divider.png'
+I 08/14/2012 00:21:16:845 00001284           MainWindow| WebView: loaded 
+I 08/14/2012 00:23:10:817 00002c64           HttpServer| Process URI: '/app/Settings/signup'
+I 08/14/2012 00:23:10:817 00002c64                  APP| RHO serve: /app/Settings/signup
+I 08/14/2012 00:23:10:817 00002c64              RhoRuby| require_compiled: Settings/controller
+I 08/14/2012 00:23:10:822 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:23:10:822 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:23:10:823 00002c64              RhoRuby| require_compiled: Member/member
+I 08/14/2012 00:23:10:824 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:23:10:838 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Settings/signup.erb
+I 08/14/2012 00:23:10:854 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:23:10:856 00002c64           HttpServer| GC End.
+I 08/14/2012 00:23:10:884 00001284           MainWindow| WebView: URL changed
+I 08/14/2012 00:23:10:890 00002c64           HttpServer| Process URI: '/public/images/back.png'
+I 08/14/2012 00:23:19:880 00002c64           HttpServer| Process URI: '/app/Settings/do_signup'
+I 08/14/2012 00:23:19:881 00002c64                  APP| RHO serve: /app/Settings/do_signup
+I 08/14/2012 00:23:19:881 00002c64              RhoRuby| require_compiled: Settings/controller
+I 08/14/2012 00:23:19:886 00002c64              RhoRuby| require_compiled: parent_controller
+I 08/14/2012 00:23:19:887 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:23:19:888 00002c64              RhoRuby| require_compiled: Member/member
+I 08/14/2012 00:23:19:888 00002c64              RhoRuby| require_compiled: helpers/browser_helper
+I 08/14/2012 00:23:19:889 00002c64                  APP| Params: {"login"=>"", "password"=>"", "email"=>""}
+I 08/14/2012 00:23:19:890 00002c64            AsyncHttp| addCommand: POST
+I 08/14/2012 00:23:19:890 00000ce4                  Net| Method: POST;Url: http://heartcare.herokuapp.com/api/v1/users.json
+I 08/14/2012 00:23:19:890 00002c64                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Settings/wait.erb
+I 08/14/2012 00:23:19:891 00002c64           HttpServer| GC Start.
+I 08/14/2012 00:23:19:894 00002c64           HttpServer| GC End.
+I 08/14/2012 00:23:19:902 00001284           MainWindow| WebView: URL changed
+.min.js'
+.png'

@@ -1,9 +1,16 @@
-<div data-role="page">
+<div data-role="page" data-add-back-btn="false">
 
-  <div data-role="header" data-theme='e' >
-    <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">
-      Back
-    </a>
+  <div data-role="header" data-theme='e' data-position="fixed" >
+    <div class="ui-btn-left back-divider" >
+      <a href="<%= url_for :action => :index %>" data-direction="reverse">
+        <img src="/public/images/back.png"/>
+      </a>
+    </div>
+    <div class="ui-btn-right have-divider">
+        <a href="<%=url_for :controller => :Settings, :action => :do_refresh %>">
+            <img src="/public/images/reload.png"/>
+        </a>
+    </div> 
     <h1>Profile</h1>
   </div>
 
@@ -47,9 +54,5 @@
       <li><a href="<%= url_for :action => :update %>">Edit Profile</a></li>
       <li><a href="<%= url_for :action => :update_password %>">Update Password</a></li>
     </ul>
-  </div>
-
-  <div data-position="fixed" data-role="footer" data-theme='e' >
-      <h3>Heart Care</h3>
   </div>
 </div>

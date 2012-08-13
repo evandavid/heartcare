@@ -1,37 +1,43 @@
-<div>
-<p>Connection</p>
+<div data-role="page">
+  <div data-role="header" data-theme='e' data-position="fixed" >
+    <h1>Connection</h1>
+    <div class="ui-btn-left back-divider">
+      <a href="<%= url_for :controller => :Home, :action => :index %>" data-direction="reverse">
+        <img src="/public/images/back.png"/>
+      </a>
+    </div>
+    <div class="ui-btn-right have-divider">
+        <a href="<%=url_for :controller => :Settings, :action => :do_refresh %>">
+            <img src="/public/images/reload.png"/>
+        </a>
+    </div> 
+  </div>
 
-Bluetooth Name: 
-<input id="id_name" type="text" name="id_name" value="<%= $device_name %>"  onChange="onDeviceNameChanged();"></input>
-<br>
-Status:
-<input id="id_status" type="text" name="id_status" readonly value="<%= $current_status %>"></input>
-<br>
+  <div data-role="content">
+    Bluetooth Name: 
+    <input id="id_name" type="text" name="id_name" value="<%= $device_name %>"  onChange="onDeviceNameChanged();"></input>
+    <br>
+    Status:
+    <input id="id_status" type="text" name="id_status" readonly value="<%= $current_status %>"></input>
+    <br>
 
-<% if System::get_property('platform') != 'Blackberry' %>
+    <div class="ui-grid-a">
+      <div class="ui-block-a">
+        <% if not $connected_device_name.nil? %>
+          <input type="button" id="id_button2" data-theme='e' value="Disconnect" name="id_button2" onClick="onDisconnect();"></input>
+        <% else %>
+        <input type="button" id="id_button2" data-theme='e' value="Connect to device" name="id_button2" onClick="onConnectClient();"></input>
+        <% end %>
+      </div>
+      <div class="ui-block-b">
+        <a data-role="button" data-theme='e' href="<%= Rho::RhoConfig.start_path %>">Home</a>
+      </div>
+    </div>
 
-<% if not $connected_device_name.nil? %>
-  <INPUT type="button" id="id_button2" value="Disconnect" name="id_button2" onClick="onDisconnect();">
-<% else %>
-  <INPUT type="button" id="id_button2" value="Connect as Client" name="id_button2" onClick="onConnectClient();">
-<% end %>
-<% else %>
+  </div>
+</div>
 
-
-<% if not $connected_device_name.nil? %>
-  <%= link_to "[Disconnect]", :action => :on_disconnect %>
-<% else %>
-  <%= link_to "[Connect]", :action => :on_connect_client %>
-<% end %>
-
-
-<% end %>
-
-<br>
-<a href="<%=Rho::RhoConfig.start_path%>" data-role="button"></a>
-
-
-<% if System::get_property('platform') == 'WINDOWS' %>
+  <% if System::get_property('platform') == 'WINDOWS' %>
 
 <script type="text/javascript">
 
@@ -164,28 +170,6 @@ function onUnload() {
   ajaxCall('/app/Connection/on_close');
   return false;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </script>
 

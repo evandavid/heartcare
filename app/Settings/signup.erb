@@ -1,9 +1,16 @@
-<div data-role="page" data-add-back-btn="true">
+<div data-role="page" data-add-back-btn="false">
 
-  <div data-role="header" data-theme='e' >
-   <a href="<%= url_for :action => :login %>" class="ui-btn-left" data-icon="arrow-l">
-      Back
-    </a>
+  <div data-role="header" data-theme='e' data-position="fixed">
+    <div class="ui-btn-left back-divider">
+      <a href="<%= url_for :action => :login %>" data-direction="reverse">
+        <img src="/public/images/back.png"/>
+      </a>
+    </div>
+    <div class="ui-btn-right have-divider">
+        <a href="<%=url_for :controller => :Settings, :action => :do_refresh %>">
+            <img src="/public/images/reload.png"/>
+        </a>
+    </div> 
     <h1>Sign up</h1>
   </div>
 
@@ -21,14 +28,9 @@
         <input type="text" id="email" name="email" class="itemValue" placeholder="email" />
       </div>
       <fieldset class="ui-grid-a">
-        <div class="ui-block-a"><button type="reset" >Reset</button></div>
-        <div class="ui-block-b"><button type="submit" >Submit</a></div>
+        <div class="ui-block-a"><button type="reset" data-theme='e'>Reset</button></div>
+        <div class="ui-block-b"><button type="submit" data-theme='e'>Submit</a></div>
       </fieldset>
     </form>
   </div>
-
-  <div data-position="fixed" data-role="footer" data-theme='e' >
-      <h3>Heart Care</h3>
-  </div>
-
 </div>

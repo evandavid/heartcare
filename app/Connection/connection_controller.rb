@@ -14,7 +14,6 @@ class ConnectionController < ParentController
   $count = 0
   
   def index
-    puts 'BluetoothChatController.index'
     $device_name = Rho::BluetoothManager.get_device_name()
     render
   end

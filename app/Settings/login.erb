@@ -1,7 +1,12 @@
-<div data-role="page" data-add-back-btn="true">
+<div data-role="page" data-add-back-btn="false">
 
-  <div data-role="header" data-theme='e' >
+  <div data-role="header" data-theme='e' data-position="fixed" >
     <h1>Login</h1>
+    <div class="ui-btn-right have-divider">
+        <a href="<%=url_for :controller => :Settings, :action => :do_refresh %>">
+            <img src="/public/images/reload.png"/>
+        </a>
+    </div> 
   </div>
 
   <div data-role="content">
@@ -16,14 +21,10 @@
         <input type="password" id="password" name="password" class="itemValue" placeholder="password" />
       </div>
       <fieldset class="ui-grid-a">
-        <div class="ui-block-a"><button type="submit" >Login</button></div>
-        <div class="ui-block-b"><a data-role="button" href="<%= url_for :controller => :Settings, :action => :signup %>">Sign Up</a></div>
+        <div class="ui-block-a"><button type="submit" data-theme='e'>Login</button></div>
+        <div class="ui-block-b"><a data-role="button" data-theme='e' href="<%= url_for :controller => :Settings, :action => :signup %>">Sign Up</a></div>
       </fieldset>
     </form>
-  </div>
-
-  <div data-position="fixed" data-role="footer" data-theme='e' >
-      <h3>Heart Care</h3>
   </div>
 
 </div>

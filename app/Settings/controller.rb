@@ -36,6 +36,12 @@ class SettingsController < ParentController
   end
 
   def profile
+    @hr = HeartRate.find(:all)
+    unless @hr.nil?
+      @hr.each do |p|
+        p.destroy
+      end
+    end
     @msg =@params['msg']
     @user = User.find(:first, :conditions => { :token => token })
     render
@@ -226,6 +232,10 @@ class SettingsController < ParentController
 #    SyncEngine.dosync
     @msg =  "Sync has been triggered."
     redirect :action => :index, :query => {:msg => @msg}
+  end
+
+  def do_refresh
+    WebView.refresh
   end
   
   def sync_notify
