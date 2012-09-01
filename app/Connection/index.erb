@@ -24,13 +24,13 @@
     <div class="ui-grid-a">
       <div class="ui-block-a">
         <% if not $connected_device_name.nil? %>
-          <input type="button" id="id_button2" data-theme='e' value="Disconnect" name="id_button2" onClick="onDisconnect();"></input>
+          <input type="button" id="id_button2" data-theme='c' value="Disconnect" name="id_button2" onClick="onDisconnect();"></input>
         <% else %>
-        <input type="button" id="id_button2" data-theme='e' value="Connect to device" name="id_button2" onClick="onConnectClient();"></input>
+        <input type="button" id="id_button2" data-theme='c' value="Connect to device" name="id_button2" onClick="onConnectClient();"></input>
         <% end %>
       </div>
       <div class="ui-block-b">
-        <a data-role="button" data-theme='e' href="<%= Rho::RhoConfig.start_path %>">Home</a>
+        <a data-role="button" data-theme='c' href="<%= Rho::RhoConfig.start_path %>">Home</a>
       </div>
     </div>
 

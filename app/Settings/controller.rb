@@ -99,7 +99,7 @@ class SettingsController < ParentController
                       :body => body,
                       :callback => url_for(:action => :signup_callback))
         @response['headers']['Wait-Page'] = 'true'
-        render :action => :wait
+        WebView.navigate ( url_for :action => :wait )
       rescue Rho::RhoError => e
         @msg = @params['password']
         render :action => :signup
@@ -193,7 +193,7 @@ class SettingsController < ParentController
                       :body => body,
                       :callback => url_for(:action => :login_callback))
         @response['headers']['Wait-Page'] = 'true'
-        render :action => :wait
+        WebView.navigate ( url_for :action => :wait )
       rescue Rho::RhoError => e
         @msg = @params['password']
         render :action => :login

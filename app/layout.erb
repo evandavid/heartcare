@@ -6,7 +6,7 @@
 
     <title>Heartcare</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-    <script src="/public/jquery/jquery-1.6.4.min.js" type="text/javascript"></script>
+    <script src="/public/jquery/jquery-1.6.4.js" type="text/javascript"></script>
     <script src="/public/jquery/jquery.json-2.3.min.js" type="text/javascript"></script>
     <script src="/public/js/gauge.js" type="text/javascript"></script>
     <script src="/public/js/jquery.flot.js" type="text/javascript"></script>
@@ -28,6 +28,7 @@
 
                 // You can disable (with false value) or change page loading message
                 $.mobile.loadingMessage = false;
+                $.mobile.defaultPageTransition = 'reverse flow';
                 //$.mobile.loadingMessage = "loading"; // it is default value
 
                 // For documented init options look here:
@@ -47,6 +48,7 @@
 
 <body data-platform="<%= System::get_property('platform') %>" >
     <%= @content %>
+
 </body>
 
 </html>

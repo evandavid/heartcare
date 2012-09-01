@@ -20,13 +20,10 @@
 a:link, a:visited,a:hover,a:active {text-decoration:none; }
 
 
-/*.ui-header .ui-title{
-    margin: 0.3em 70px 0.7em 10px;
-    background-image:url(../images/logo.png);
-    background-repeat:no-repeat;
-    background-position:0 0px;
-    height:30px;
- }*/
+.ui-header .ui-title{
+/*    position: relative ;
+    right: 10px;*/
+ }
 
 body {
     background: #e8e3dc ;
@@ -41,7 +38,7 @@ body {
 }
 
 .ui-header {
-  border-bottom: 4px solid   #02b1d7;
+  border-bottom: 4px solid   #BD362F;
   min-height: 45px;
 }
 
@@ -70,4 +67,51 @@ body {
 .detail {
   position: relative;
   top: -130px;
+}
+
+.logo-heart {
+  position: : fixed;
+}
+
+.ui-page {
+  -webkit-backface-visibility: hidden;
+}
+
+#loadingImage {
+  background: url('../images/loading.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  padding-top: 15px;
+  text-align:center;
+  z-index:1234;
+  overflow: auto;
+  width: 50%; /* width of the spinner gif */
+  height: 80px; /*hight of the spinner gif +2px to fix IE8 issue */
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:10px;
+  background: #666; /* fallback for browsers that don't understand rgba */
+  border: #solid 10px #000; /* fallback for browsers that don't understand rgba */
+  background-color: rgba(0,0,0,0.8)/* slighly transparent white */
+  border-color: solid 10px rgba(0,0,0,0.2) /*Very transparent black*/
+}
+
+.loading-label {
+  display:block;font-size:14px; color: #fff;
+  font-weight: bold;
+}
+
+.logoAorta {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 50px;
+  margin-top: 20px;
 }

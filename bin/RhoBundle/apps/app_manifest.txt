@@ -1,5 +1,0 @@
-Connection/connection
-HeartRate/heart_rate
-Home/home
-Member/member
-User/user

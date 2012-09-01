@@ -15,22 +15,42 @@
   </div>
 
   <div data-role="content">
+    <div >
+      <img src="/public/css/images/logo.png" class="logoAorta">
+    </div>
     <form method="POST" action="<%= url_for :action => :do_signup %>">
       <% if @msg %>
           <div class="error-message"><%= @msg %></div>
       <% end %>
-
-      <div data-role="fieldcontain">
-        <input type="text" id="login" name="login" class="itemValue" placeholder="username" />
-          <br />
-        <input type="password" id="password" name="password" class="itemValue" placeholder="password" />
-          <br />
-        <input type="text" id="email" name="email" class="itemValue" placeholder="email" />
+      <div id="spinner" class="spinner" style="display:none;">
+        <img id="img-spinner" src="/public/images/ajax-loader.gif" alt="Loading"/>
+        <span class='loading-label'>Loading....</span>
       </div>
+      <div class="ui-grid-solo">
+        <div class="ui-block-a">
+          <input type="text" id="login" name="login" class="itemValue" placeholder="username" />
+        </div>
+      </div>
+      <div class="ui-grid-solo">
+        <div class="ui-block-a">
+          <input type="password" id="password" name="password" class="itemValue" placeholder="password" />
+        </div>
+      </div>
+      <div class="ui-grid-solo">
+        <div class="ui-block-a">
+          <input type="text" id="email" name="email" class="itemValue" placeholder="email" />
+        </div>
+      </div>
+      
       <fieldset class="ui-grid-a">
-        <div class="ui-block-a"><button type="reset" data-theme='e'>Reset</button></div>
-        <div class="ui-block-b"><button type="submit" data-theme='e'>Submit</a></div>
+        <div class="ui-block-a"><button type="reset" data-theme='c'>Reset</button></div>
+        <div class="ui-block-b"><button type="submit" data-theme='c'>Submit</a></div>
       </fieldset>
     </form>
+    <script type="text/javascript">
+      function loadingAnimate(){
+       $("#spinner").show();
+      }
+    </script>
   </div>
 </div>

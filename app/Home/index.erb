@@ -1,7 +1,8 @@
 <div data-role="page" data-add-back-btn="false">
 
 	<div data-role="header" data-theme='e' data-position="fixed">
-    <h1><div id="ui-title"></div></h1>
+
+    <h1 style="text-align:left; margin-left:10px;"><div id="ui-title">Heartcare</div></h1>
     <div class="ui-btn-right have-divider">
         <a href="<%=url_for :controller => :Settings, :action => :do_refresh %>">
             <img src="/public/images/reload.png"/>
@@ -12,37 +13,37 @@
   <div data-role="content" >
     <div class="ui-grid-a index-grid">
       <div class="ui-block-a index-a first">
-        <a href="<%= url_for :action => :show %>" >
+        <a data-transition="reverse flow" href="<%= url_for :action => :show %>" >
           <img src="/public/images/menu/heart.png" >
           <span class="icon-label">Start</span>
         </a>
       </div>
       <div class="ui-block-b index-b first">
-        <a href="<%= url_for :action => :graph %>" >
+        <a data-transition="reverse flow" href="<%= url_for :action => :graph %>" >
           <img src="/public/images/menu/chart.png" >
           <span class="icon-label">Graph</span>
         </a>
       </div>
       <div class="ui-block-a index-a first">
-        <a href="<%= url_for :controller => :Settings, :action => :index %>" >
+        <a data-transition="reverse flow" href="<%= url_for :controller => :Settings, :action => :index %>" >
           <img src="/public/images/menu/gears.png" >
           <span class="icon-label">Settings</span>
         </a>
       </div>
       <div class="ui-block-b index-b">
-       <a href="<%= url_for :action => :show %>" >
+       <a data-transition="reverse flow" href="<%= url_for :action => :show %>" >
           <img src="/public/images/menu/connection.png">
           <span class="icon-label">Networks</span>
         </a>
       </div>
       <div class="ui-block-a index-a">
-       <a href="<%= url_for :controller => :Connection, :action => :index %>" >
+       <a data-transition="reverse flow"href="<%= url_for :controller => :Connection, :action => :index %>" >
           <img src="/public/images/menu/signal.png">
           <span class="icon-label">Connection</span>
         </a>
       </div>
       <div class="ui-block-b index-b">
-        <a href="<%= url_for :controller => :Settings, :action => :logout %>" >
+        <a data-transition="reverse flow" data-transition="reverse flow" href="<%= url_for :controller => :Settings, :action => :logout %>" >
           <img src="/public/images/menu/onoff.png" >
           <span class="icon-label">Logout</span>
         </a>
@@ -52,8 +53,13 @@
 
   <script type="text/javascript">
      $(document).ready(function(){
-        $(".index-a").height((window.innerHeight)/3);
-        $(".index-b").height((window.innerHeight)/3);
+      if (window.innerHeight*0.8 < 340){
+          $(".index-a").height((window.innerHeight)/3);
+          $(".index-b").height((window.innerHeight)/3);
+      } else {
+          $(".index-a").height((window.innerHeight*0.8)/3);
+          $(".index-b").height((window.innerHeight*0.8)/3);
+      }
      });
   </script>
 
