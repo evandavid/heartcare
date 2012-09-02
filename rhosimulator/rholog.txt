@@ -89,280 +89,275 @@ I 09/02/2012 06:05:37:084 00000ec8          GeoLocation| Destroying singleton in
 I 09/02/2012 06:05:37:085 00000ec8                 Sync| Stopping Sync thread
 I 09/02/2012 06:05:37:087 00001448            AsyncHttp| Thread shutdown
 I 09/02/2012 06:05:37:087 00000ec8            AsyncHttp| Thread shutdown
-public/js/gauge.js'
-I 08/18/2012 05:42:04:130 00000dc4           HttpServer| Process URI: '/public/js/jquery.flot.js'
-I 08/18/2012 05:42:04:131 00000dc4           HttpServer| Process URI: '/public/js/jquery.flot.time.js'
-I 08/18/2012 05:42:04:131 00000dc4           HttpServer| Process URI: '/public/js/tween-min.js'
-I 08/18/2012 05:42:04:132 00000dc4           HttpServer| Process URI: '/public/js/steelseries-min.js'
-I 08/18/2012 05:42:04:204 00000dc4           HttpServer| Process URI: '/public/css/Bootstrap.css'
-I 08/18/2012 05:42:04:205 00000dc4           HttpServer| Process URI: '/public/jqmobile/jquery.mobile.structure-1.0.1.min.css'
-I 08/18/2012 05:42:04:206 00000dc4           HttpServer| Process URI: '/public/css/jqm-icon-pack-1.1.1-fa.css'
-I 08/18/2012 05:42:04:206 00000dc4           HttpServer| Process URI: '/public/css/application.css'
-I 08/18/2012 05:42:04:206 00000dc4           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0.1.min.js'
-I 08/18/2012 05:42:04:301 00000dc4           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
-I 08/18/2012 05:42:04:473 00000dc4           HttpServer| Process URI: '/public/images/back.png'
-I 08/18/2012 05:42:04:474 00000dc4           HttpServer| Process URI: '/public/images/reload.png'
-I 08/18/2012 05:42:04:475 00000dc4           HttpServer| Process URI: '/public/css/images/logo.png'
-I 08/18/2012 05:42:04:488 00000dc4           HttpServer| Process URI: '/public/images/ajax-loader.gif'
-I 08/18/2012 05:42:04:488 00000dc4           HttpServer| Process URI: '/public/css/images/divider.png'
-I 08/18/2012 05:42:04:497 00000d44           MainWindow| WebView: loaded 
-I 08/18/2012 06:11:07:151 00000d44            RhodesApp| callAppActiveCallback
-I 08/18/2012 06:11:07:151 00000d44         AppCallbacks| addCommand: APP-DEACTIVATED
-I 08/18/2012 06:11:07:151 00000d44                  Net| Method: GET;Url: http://127.0.0.1:53474/system/deactivateapp
-I 08/18/2012 06:11:07:159 00000dc4           HttpServer| Process URI: '/system/deactivateapp'
-I 08/18/2012 06:11:07:160 00001740         AppCallbacks| process command: APP-DEACTIVATED
-I 08/18/2012 06:11:07:160 00001740         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
-I 08/18/2012 06:11:07:218 00000d44                  Net| Method: GET;Url: http://127.0.0.1:53474/system/uidestroyed
-I 08/18/2012 06:11:07:229 00000dc4           HttpServer| Process URI: '/system/uidestroyed'
-I 08/18/2012 06:11:07:229 00001740         AppCallbacks| Thread shutdown
-I 08/18/2012 06:11:07:238 00000d44           HttpServer| Stopping server...
-I 08/18/2012 06:11:07:238 00000dc4            RhodesApp| RhodesApp thread shutdown
-I 08/18/2012 06:11:07:249 00000dc4          GeoLocation| Destroying singleton instance.
-I 08/18/2012 06:11:07:249 00000dc4                 Sync| Stopping Sync thread
-I 08/18/2012 06:11:07:278 000017ac            AsyncHttp| Thread shutdown
-I 08/18/2012 06:11:07:278 00000dc4            AsyncHttp| Thread shutdown
-I 09/02/2012 06:01:37:761 00000d24            RhodesApp| New start params: "-approot='C:/Users/kristian/workspace/heartcare'" "-rhodespath='C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3'"
-I 09/02/2012 06:01:37:812 00000d24      Rhodes.cpp: 432| Rhodes started
-I 09/02/2012 06:01:37:813 00000d24            RhodesApp| Trying to get free listening port.
-I 09/02/2012 06:01:37:814 00000d24            RhodesApp| Trying to bind of 0 port...
-I 09/02/2012 06:01:37:814 00000d24            RhodesApp| Got port to bind on: 60438
-I 09/02/2012 06:01:37:814 00000d24            RhodesApp| Free listening port: 60438
-I 09/02/2012 06:01:37:815 0000159c         AppCallbacks| Starting main routine...
-I 09/02/2012 06:01:37:815 0000159c         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
-I 09/02/2012 06:01:38:834 00000d24            RhodesApp| callAppActiveCallback
-I 09/02/2012 06:01:38:835 00000d24         AppCallbacks| addCommand: APP-ACTIVATED
-I 09/02/2012 06:01:38:835 0000159c         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
-I 09/02/2012 06:01:38:835 0000159c         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
-I 09/02/2012 06:01:38:840 00000d24         AppCallbacks| addCommand: UI-CREATED
-I 09/02/2012 06:01:38:840 0000159c         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
-I 09/02/2012 06:01:38:840 0000159c         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
-I 09/02/2012 06:01:38:841 00000d24           MainWindow| navigate: 'about:blank'
-I 09/02/2012 06:01:38:841 00000d24           MainWindow| WebView: loading...
-I 09/02/2012 06:01:38:842 00000d24           MainWindow| WebView: URL changed
-I 09/02/2012 06:01:38:842 00000d24           MainWindow| WebView: loaded 
-I 09/02/2012 06:01:38:849 00000ec8            RhodesApp| Starting RhodesApp main routine...
-I 09/02/2012 06:01:38:863 00000ec8              RhoRuby| Init_RhoBlobs: C:/Users/kristian/workspace/heartcare/rhosimulator/db/db-files
-I 09/02/2012 06:01:38:921 00000ec8              RhoRuby| require_compiled: digest
-I 09/02/2012 06:01:38:934 00000ec8              RhoRuby| require_compiled: rhoframework
-I 09/02/2012 06:01:38:936 00000ec8              RhoRuby| require_compiled: rational
-I 09/02/2012 06:01:38:937 00000ec8              RhoRuby| require_compiled: rhom/rhom_db_adapter
-I 09/02/2012 06:01:38:940 00000ec8              RhoRuby| require_compiled: rhodes
-I 09/02/2012 06:01:38:941 00000ec8              RhoRuby| require_compiled: rhom/rhom_object
-I 09/02/2012 06:01:38:941 00000ec8              RhoRuby| require_compiled: rhofsconnector
-I 09/02/2012 06:01:38:942 00000ec8              RhoRuby| require_compiled: rho/rhofsconnector
-I 09/02/2012 06:01:38:943 00000ec8              RhoRuby| require_compiled: rhom/rhom_object_factory
-I 09/02/2012 06:01:38:968 00000ec8              RhoRuby| require_compiled: rhom/rhom
-I 09/02/2012 06:01:38:971 00000ec8              RhoRuby| require_compiled: rhom/rhom_model
-I 09/02/2012 06:01:38:972 00000ec8              RhoRuby| require_compiled: rhom
-I 09/02/2012 06:01:38:973 00000ec8              RhoRuby| require_compiled: rho/rhoapplication
-I 09/02/2012 06:01:38:977 00000ec8              RhoRuby| require_compiled: rholang/localization_simplified
-I 09/02/2012 06:01:38:980 00000ec8              RhoRuby| require_compiled: rho/rhomsg
-I 09/02/2012 06:01:38:981 00000ec8              RhoRuby| require_compiled: rho/rhotabbar
-I 09/02/2012 06:01:38:982 00000ec8              RhoRuby| require_compiled: rho/rhotoolbar
-I 09/02/2012 06:01:38:982 00000ec8                  APP| Current locale: ; Country code: 
-I 09/02/2012 06:01:38:982 00000ec8                  APP| Locilized file: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/lang_
-I 09/02/2012 06:01:38:982 00000ec8              RhoRuby| require_compiled: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/lang_en
-I 09/02/2012 06:01:38:985 00000ec8                  APP| Locilized file: C:/Users/kristian/workspace/heartcare/app/lang/lang_
-I 09/02/2012 06:01:38:985 00000ec8                  APP| Locilized file: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/rhoerror_
-I 09/02/2012 06:01:38:985 00000ec8              RhoRuby| require_compiled: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/rhoerror_en
-I 09/02/2012 06:01:38:986 00000ec8                  APP| Locilized file: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/rhomsg_
-I 09/02/2012 06:01:38:986 00000ec8              RhoRuby| require_compiled: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/rhomsg_en
-I 09/02/2012 06:01:38:987 00000ec8              RhoRuby| require_compiled: indifferent_access
-I 09/02/2012 06:01:38:988 00000ec8              RhoRuby| require_compiled: rho/rhosupport
-I 09/02/2012 06:01:38:991 00000ec8              RhoRuby| require_compiled: rho/rhocontroller
-I 09/02/2012 06:01:38:993 00000ec8              RhoRuby| require_compiled: rho/render
-I 09/02/2012 06:01:38:997 00000ec8              RhoRuby| require_compiled: rho/rho
-I 09/02/2012 06:01:39:013 00000ec8              RhoRuby| require_compiled: rho/rhoerror
-I 09/02/2012 06:01:39:016 00000ec8              RhoRuby| require_compiled: rhom/rhom_source
-E 09/02/2012 06:01:39:018 00000ec8              RhoRuby| require_compiled: error: can not find rhodes_translator
-I 09/02/2012 06:01:39:018 00000ec8              RhoRuby| require_compiled: rho/rhoviewhelpers
-I 09/02/2012 06:01:39:021 00000ec8              RhoRuby| require_compiled: rho
-I 09/02/2012 06:01:39:021 00000ec8              RhoRuby| require_compiled: debugger
-I 09/02/2012 06:01:39:031 00000ec8              RhoRuby| require_compiled: uri
-I 09/02/2012 06:01:39:032 00000ec8              RhoRuby| require_compiled: uri/common
-I 09/02/2012 06:01:39:046 00000ec8              RhoRuby| require_compiled: uri/generic
-I 09/02/2012 06:01:39:058 00000ec8              RhoRuby| require_compiled: uri/ftp
-I 09/02/2012 06:01:39:072 00000ec8              RhoRuby| require_compiled: uri/http
-I 09/02/2012 06:01:39:080 00000ec8              RhoRuby| require_compiled: uri/https
-I 09/02/2012 06:01:39:080 00000ec8              RhoRuby| require_compiled: uri/ldap
-I 09/02/2012 06:01:39:094 00000ec8              RhoRuby| require_compiled: uri/ldaps
-I 09/02/2012 06:01:39:095 00000ec8              RhoRuby| require_compiled: uri/mailto
-I 09/02/2012 06:01:39:098 00000ec8              RhoRuby| require_compiled: timeout
-I 09/02/2012 06:01:40:102 00000ec8                  APP| [Debugger] Unable to open connection to debugger: #<Errno::ECONNREFUSED: No connection could be made because the target machine actively refused it. - connect(2)>
-I 09/02/2012 06:01:40:103 00000ec8                  APP| RHO loaded
-I 09/02/2012 06:01:40:103 00000ec8                  APP| Calling RHO.initialize
-I 09/02/2012 06:01:40:103 00000ec8              RhoRuby| require_compiled: rhoappmanifest
-I 09/02/2012 06:01:40:108 00000ec8              RhoRuby| require_compiled: find
-I 09/02/2012 06:01:40:195 00000ec8                  APP| model file: User/user
-I 09/02/2012 06:01:40:195 00000ec8                  APP| model file: Member/member
-I 09/02/2012 06:01:40:195 00000ec8                  APP| model file: Home/home
-I 09/02/2012 06:01:40:195 00000ec8                  APP| model file: HeartRate/heart_rate
-I 09/02/2012 06:01:40:195 00000ec8                  APP| model file: Connection/connection
-I 09/02/2012 06:01:40:195 00000ec8                   DB| Open DB: C:/Users/kristian/workspace/heartcare/rhosimulator/db/syncdbuser.sqlite
-I 09/02/2012 06:01:40:213 00000ec8          GeoLocation| Creating singleton instance.
-I 09/02/2012 06:01:40:213 00000ec8            RhodesApp| Starting sync engine...
-I 09/02/2012 06:01:40:213 00000ec8                 Sync| sync_poll_interval: 0
-I 09/02/2012 06:01:40:213 00000ec8                 Sync| syncserver: 
-I 09/02/2012 06:01:40:213 00000ec8                 Sync| bulksync_state: 0
-I 09/02/2012 06:01:40:213 00000ec8            RhodesApp| RhoRubyInitApp...
-I 09/02/2012 06:01:40:213 00000ec8                  APP| init_app
-I 09/02/2012 06:01:40:214 00000ec8              RhoRuby| require_compiled: application
-I 09/02/2012 06:01:40:214 00000ec8           HttpServer| Start HTTP server
-I 09/02/2012 06:01:40:215 00000ec8           HttpServer| Listen for connections on port 60438
-I 09/02/2012 06:01:40:215 00000ec8         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
-I 09/02/2012 06:01:40:215 0000159c         AppCallbacks| process command: LOCAL-SERVER-STARTED
-I 09/02/2012 06:01:40:215 0000159c  SystemImpl.cpp: 717| rho_sys_report_app_started() has no implementation on Win Mobile.
-I 09/02/2012 06:01:40:215 0000159c         AppCallbacks| process command: UI-CREATED
-I 09/02/2012 06:01:40:215 0000159c                  Net| Method: GET;Url: http://127.0.0.1:60438/system/uicreated
-I 09/02/2012 06:01:40:278 00000ec8           HttpServer| Process URI: '/system/uicreated'
-I 09/02/2012 06:01:40:278 00000ec8                  APP| on_ui_created.navigate to start url: '/app/Home'
-I 09/02/2012 06:01:40:278 00000d24           MainWindow| navigate: 'http://127.0.0.1:60438/app/Home'
-I 09/02/2012 06:01:40:278 0000159c         AppCallbacks| process command: APP-ACTIVATED
-I 09/02/2012 06:01:40:278 0000159c                  Net| Method: GET;Url: http://127.0.0.1:60438/system/activateapp
-I 09/02/2012 06:01:40:278 00000d24           MainWindow| WebView: loading...
-I 09/02/2012 06:01:40:279 00000ec8           HttpServer| Process URI: '/system/activateapp'
-I 09/02/2012 06:01:40:279 0000159c         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
-I 09/02/2012 06:01:40:279 00000ec8           HttpServer| Process URI: '/app/Home'
-I 09/02/2012 06:01:40:280 00000ec8                  APP| RHO serve: /app/Home
-I 09/02/2012 06:01:40:280 00000ec8              RhoRuby| require_compiled: Home/home_controller
-I 09/02/2012 06:01:40:281 00000ec8              RhoRuby| require_compiled: parent_controller
-I 09/02/2012 06:01:40:281 00000ec8              RhoRuby| require_compiled: helpers/browser_helper
-I 09/02/2012 06:01:40:282 00000ec8              RhoRuby| require_compiled: helpers/browser_helper
-I 09/02/2012 06:01:40:282 00000ec8              RhoRuby| require_compiled: rho/rhobluetooth
-I 09/02/2012 06:01:40:284 00000ec8                  APP| const_missing: User
-I 09/02/2012 06:01:40:284 00000ec8                  APP| load_model: User
-I 09/02/2012 06:01:40:285 00000ec8              RhoRuby| require_compiled: User/user
-I 09/02/2012 06:01:40:285 00000ec8                  APP| model name: User
-I 09/02/2012 06:01:40:285 00000ec8                  APP| model class found
-I 09/02/2012 06:01:40:285 00000ec8                  APP| User : {"property"=>{}}
-I 09/02/2012 06:01:40:285 00000ec8                   DB| Open DB: C:/Users/kristian/workspace/heartcare/rhosimulator/db/syncdblocal.sqlite
-I 09/02/2012 06:01:40:313 00000ec8                  APP| init_db_sources
-I 09/02/2012 06:01:40:360 00000ec8                  APP| start_id: 40008
-I 09/02/2012 06:01:40:363 00000ec8                  APP| Migrate schema sources: {}
-I 09/02/2012 06:01:40:538 00000ec8              RhoRuby| require_compiled: erb
-I 09/02/2012 06:01:40:540 00000d24           MainWindow| navigate: 'http://127.0.0.1:60438/app/Settings/login?msg=Login%20First'
-I 09/02/2012 06:01:40:540 00000d24           MainWindow| WebView: failed 
-I 09/02/2012 06:01:40:541 00000d24           MainWindow| WebView: loading...
-I 09/02/2012 06:01:40:564 00000ec8                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Home/index.erb
-I 09/02/2012 06:01:40:567 00000ec8                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/layout.erb
-I 09/02/2012 06:01:40:568 00000ec8   RHO HomeController| Layout file: C:/Users/kristian/workspace/heartcare/app/layout.erb. Content size: 4888
-I 09/02/2012 06:01:40:568 00000ec8           HttpServer| GC Start.
-I 09/02/2012 06:01:40:571 00000ec8           HttpServer| GC End.
-I 09/02/2012 06:01:40:571 00000ec8           HttpServer| Process URI: '/app/Settings/login'
-I 09/02/2012 06:01:40:571 00000ec8                  APP| RHO serve: /app/Settings/login
-I 09/02/2012 06:01:40:572 00000ec8              RhoRuby| require_compiled: Settings/controller
-I 09/02/2012 06:01:40:576 00000ec8              RhoRuby| require_compiled: parent_controller
-I 09/02/2012 06:01:40:576 00000ec8              RhoRuby| require_compiled: helpers/browser_helper
-I 09/02/2012 06:01:40:577 00000ec8              RhoRuby| require_compiled: Member/member
-I 09/02/2012 06:01:40:578 00000ec8              RhoRuby| require_compiled: helpers/browser_helper
-I 09/02/2012 06:01:40:578 00000ec8              RhoRuby| require_compiled: json
-I 09/02/2012 06:01:40:579 00000ec8              RhoRuby| require_compiled: json/common
-I 09/02/2012 06:01:40:583 00000ec8              RhoRuby| require_compiled: json/version
-I 09/02/2012 06:01:40:584 00000ec8              RhoRuby| require_compiled: json/pure
-I 09/02/2012 06:01:40:586 00000ec8              RhoRuby| require_compiled: json/pure/generator
-I 09/02/2012 06:01:40:592 00000ec8                  APP| Params: {"msg"=>"Login First"}
-I 09/02/2012 06:01:40:592 00000ec8                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Settings/login.erb
-I 09/02/2012 06:01:40:594 00000ec8                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/layout.erb
-I 09/02/2012 06:01:40:595 00000ec8 RHO SettingsController| Layout file: C:/Users/kristian/workspace/heartcare/app/layout.erb. Content size: 4129
-I 09/02/2012 06:01:40:595 00000ec8           HttpServer| GC Start.
-I 09/02/2012 06:01:40:596 00000d24           MainWindow| WebView: URL changed
-I 09/02/2012 06:01:40:597 00000ec8           HttpServer| GC End.
-I 09/02/2012 06:01:40:616 00000ec8           HttpServer| Process URI: '/public/jquery/jquery-1.6.4.js'
-I 09/02/2012 06:01:40:656 00000ec8           HttpServer| Process URI: '/public/jquery/jquery.json-2.3.min.js'
-I 09/02/2012 06:01:40:658 00000ec8           HttpServer| Process URI: '/public/js/gauge.js'
-I 09/02/2012 06:01:40:662 00000ec8           HttpServer| Process URI: '/public/js/jquery.flot.js'
-I 09/02/2012 06:01:40:710 00000ec8           HttpServer| Process URI: '/public/js/jquery.flot.time.js'
-I 09/02/2012 06:01:40:714 00000ec8           HttpServer| Process URI: '/public/js/tween-min.js'
-I 09/02/2012 06:01:40:716 00000ec8           HttpServer| Process URI: '/public/js/steelseries-min.js'
-I 09/02/2012 06:01:40:740 00000ec8           HttpServer| Process URI: '/public/css/Bootstrap.css'
-I 09/02/2012 06:01:40:740 00000ec8           HttpServer| Process URI: '/public/jqmobile/jquery.mobile.structure-1.0.1.min.css'
-I 09/02/2012 06:01:40:741 00000ec8           HttpServer| Process URI: '/public/css/jqm-icon-pack-1.1.1-fa.css'
-I 09/02/2012 06:01:40:741 00000ec8           HttpServer| Process URI: '/public/css/application.css'
-I 09/02/2012 06:01:40:742 00000ec8           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0.1.min.js'
-I 09/02/2012 06:01:40:844 00000ec8           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
-I 09/02/2012 06:01:41:034 00000ec8           HttpServer| Process URI: '/public/images/reload.png'
-I 09/02/2012 06:01:41:036 00000ec8           HttpServer| Process URI: '/public/css/images/logo.png'
-I 09/02/2012 06:01:41:118 00000ec8           HttpServer| Process URI: '/public/images/ajax-loader.gif'
-I 09/02/2012 06:01:41:118 00000ec8           HttpServer| Process URI: '/public/css/images/divider.png'
-I 09/02/2012 06:01:41:124 00000d24           MainWindow| WebView: loaded 
-I 09/02/2012 06:01:42:509 00000ec8           HttpServer| Process URI: '/app/Settings/do_login'
-I 09/02/2012 06:01:42:510 00000ec8                  APP| RHO serve: /app/Settings/do_login
-I 09/02/2012 06:01:42:510 00000ec8              RhoRuby| require_compiled: Settings/controller
-I 09/02/2012 06:01:42:513 00000ec8              RhoRuby| require_compiled: parent_controller
-I 09/02/2012 06:01:42:513 00000ec8              RhoRuby| require_compiled: helpers/browser_helper
-I 09/02/2012 06:01:42:514 00000ec8              RhoRuby| require_compiled: Member/member
-I 09/02/2012 06:01:42:514 00000ec8              RhoRuby| require_compiled: helpers/browser_helper
-I 09/02/2012 06:01:42:515 00000ec8                  APP| Params: {"login"=>"", "password"=>""}
-I 09/02/2012 06:01:42:552 00000ec8            AsyncHttp| addCommand: POST
-I 09/02/2012 06:01:42:554 00000ec8           HttpServer| GC Start.
-I 09/02/2012 06:01:42:558 00000ec8           HttpServer| GC End.
-I 09/02/2012 06:01:42:558 00001448            AsyncHttp| Starting main routine...
-I 09/02/2012 06:01:42:558 00001448                  Net| Method: POST;Url: http://aorta-life.herokuapp.com/api/v1/tokens.json
-I 09/02/2012 06:01:42:559 00000d24           MainWindow| navigate: 'http://127.0.0.1:60438/app/Settings/wait'
-I 09/02/2012 06:01:42:756 00000d24           MainWindow| WebView: loading...
-I 09/02/2012 06:01:42:777 00000ec8           HttpServer| Process URI: '/app/Settings/wait'
-I 09/02/2012 06:01:42:777 00000ec8                  APP| RHO serve: /app/Settings/wait
-I 09/02/2012 06:01:42:778 00000ec8              RhoRuby| require_compiled: Settings/controller
-I 09/02/2012 06:01:42:787 00000ec8              RhoRuby| require_compiled: parent_controller
-I 09/02/2012 06:01:42:788 00000ec8              RhoRuby| require_compiled: helpers/browser_helper
-I 09/02/2012 06:01:42:789 00000ec8              RhoRuby| require_compiled: Member/member
-I 09/02/2012 06:01:42:790 00000ec8              RhoRuby| require_compiled: helpers/browser_helper
-I 09/02/2012 06:01:42:791 00000ec8                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Settings/wait.erb
-I 09/02/2012 06:01:42:792 00000ec8                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/layout.erb
-I 09/02/2012 06:01:42:794 00000ec8 RHO SettingsController| Layout file: C:/Users/kristian/workspace/heartcare/app/layout.erb. Content size: 2977
-I 09/02/2012 06:01:42:794 00000ec8           HttpServer| GC Start.
-I 09/02/2012 06:01:42:795 00000d24           MainWindow| WebView: URL changed
-I 09/02/2012 06:01:42:796 00000ec8           HttpServer| GC End.
-I 09/02/2012 06:01:42:818 00000ec8           HttpServer| Process URI: '/public/jquery/jquery-1.6.4.js'
-I 09/02/2012 06:01:42:820 00000ec8           HttpServer| Process URI: '/public/jquery/jquery.json-2.3.min.js'
-I 09/02/2012 06:01:42:820 00000ec8           HttpServer| Process URI: '/public/js/gauge.js'
-I 09/02/2012 06:01:42:821 00000ec8           HttpServer| Process URI: '/public/js/jquery.flot.js'
-I 09/02/2012 06:01:42:822 00000ec8           HttpServer| Process URI: '/public/js/jquery.flot.time.js'
-I 09/02/2012 06:01:42:822 00000ec8           HttpServer| Process URI: '/public/js/tween-min.js'
-I 09/02/2012 06:01:42:825 00000ec8           HttpServer| Process URI: '/public/js/steelseries-min.js'
-I 09/02/2012 06:01:42:896 00000ec8           HttpServer| Process URI: '/public/css/Bootstrap.css'
-I 09/02/2012 06:01:42:896 00000ec8           HttpServer| Process URI: '/public/jqmobile/jquery.mobile.structure-1.0.1.min.css'
-I 09/02/2012 06:01:42:897 00000ec8           HttpServer| Process URI: '/public/css/jqm-icon-pack-1.1.1-fa.css'
-I 09/02/2012 06:01:42:897 00000ec8           HttpServer| Process URI: '/public/css/application.css'
-I 09/02/2012 06:01:42:898 00000ec8           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0.1.min.js'
-I 09/02/2012 06:01:42:989 00000ec8           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
-I 09/02/2012 06:01:43:118 00000ec8           HttpServer| Process URI: '/public/images/ajax-loader.gif'
-I 09/02/2012 06:01:43:141 00000d24           MainWindow| WebView: loaded 
-E 09/02/2012 06:02:13:170 00001448                  Net| Call HttpSendRequest failed. Url:http://aorta-life.herokuapp.com/api/v1/tokens.json. With code : 12002.Message: The operation timed out
-I 09/02/2012 06:02:13:170 00001448                  Net| Method: POST;Url: http://127.0.0.1:60438/app/Settings/login_callback
-I 09/02/2012 06:02:13:173 00000ec8           HttpServer| Process URI: '/app/Settings/login_callback'
-I 09/02/2012 06:02:13:174 00000ec8                  APP| RHO serve: /app/Settings/login_callback
-I 09/02/2012 06:02:13:174 00000ec8              RhoRuby| require_compiled: Settings/controller
-I 09/02/2012 06:02:13:185 00000ec8              RhoRuby| require_compiled: parent_controller
-I 09/02/2012 06:02:13:187 00000ec8              RhoRuby| require_compiled: helpers/browser_helper
-I 09/02/2012 06:02:13:189 00000ec8              RhoRuby| require_compiled: Member/member
-I 09/02/2012 06:02:13:190 00000ec8              RhoRuby| require_compiled: helpers/browser_helper
-I 09/02/2012 06:02:13:192 00000ec8                  APP| Params: {"rho_callback"=>"1", "status"=>"error", "error_code"=>"1", "headers"=>{"Content-type"=>"application/json", "User-Agent"=>"Mozilla-5.0 (ANDROID; Win32; 2.3.3)"}, "__rho_object"=>{"body"=>"0"}}
-E 09/02/2012 06:02:13:192 00000ec8                RJSON| rjson_tokener_parse_ex: error unexpected character at offset 0; String: 
-E 09/02/2012 06:02:13:192 00000ec8                RJSON| Incorrect json body.Error:JSON error code: 4; Offset: 0
-I 09/02/2012 06:02:13:193 00000ec8                  APP| App error: JSON error code: 4; Offset: 0
- C:/Users/kristian/workspace/heartcare/app/Settings/controller.rb:178:in `parse'
-C:/Users/kristian/workspace/heartcare/app/Settings/controller.rb:178:in `login_callback'
-C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rho/rhocontroller.rb:101:in `serve'
-C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rho/rhoapplication.rb:226:in `serve'
-C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rho/rho.rb:838:in `serve'
-I 09/02/2012 06:02:13:194 00000ec8           HttpServer| GC Start.
-E 09/02/2012 06:02:13:194 00001448                  Net| An error occured connecting to the server: 500 returned.
-I 09/02/2012 06:02:13:194 00001448            AsyncHttp| ThreadQueue blocked for 4294967295 seconds...
-I 09/02/2012 06:02:13:198 00000ec8           HttpServer| GC End.
-I 09/02/2012 06:02:36:323 00000d24           MainWindow| navigate: 'http://127.0.0.1:60438/app/Home'
-I 09/02/2012 06:02:36:324 00000d24           MainWindow| WebView: loading...
-I 09/02/2012 06:02:36:335 00000ec8           HttpServer| Process URI: '/app/Home'
-I 09/02/2012 06:02:36:336 00000ec8                  APP| RHO serve: /app/Home
-I 09/02/2012 06:02:36:337 00000ec8              RhoRuby| require_compiled: Home/home_controller
-I 09/02/2012 06:02:36:340 00000ec8              RhoRuby| require_compiled: parent_controller
-I 09/02/2012 06:02:36:341 00000ec8              RhoRuby| require_compiled: helpers/browser_helper
-I 09/02/2012 06:02:36:343 00000ec8              RhoRuby| require_compiled: helpers/browser_helper
-I 09/02/2012 06:02:36:346 00000d24           MainWindow| navigate: 'http://127.0.0.1:60438/app/Settings/login?msg=Login%20First'
-I 09/02/2012 06:02:36:346 00000ec8                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Home/index.erb
-I 09/02/2012 06:02:36:346 00000d24           MainWindow| WebView: failed 
-I 09/02/2012 06:02:36:347 00000d24           MainWindow| WebView: loading...
-I 09/02/2012 06:02:36:349 00000ec8                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/layout.erb
+I 09/02/2012 07:29:22:087 00000e54            RhodesApp| New start params: "-approot='C:/Users/kristian/workspace/heartcare'" "-rhodespath='C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3'"
+I 09/02/2012 07:29:22:087 00000e54      Rhodes.cpp: 432| Rhodes started
+I 09/02/2012 07:29:22:088 00000e54            RhodesApp| Trying to get free listening port.
+I 09/02/2012 07:29:22:089 00000e54            RhodesApp| Trying to bind of 0 port...
+I 09/02/2012 07:29:22:089 00000e54            RhodesApp| Got port to bind on: 50265
+I 09/02/2012 07:29:22:089 00000e54            RhodesApp| Free listening port: 50265
+I 09/02/2012 07:29:22:091 00001138         AppCallbacks| Starting main routine...
+I 09/02/2012 07:29:22:091 00001138         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 09/02/2012 07:29:22:300 00000e54            RhodesApp| callAppActiveCallback
+I 09/02/2012 07:29:22:300 00000e54         AppCallbacks| addCommand: APP-ACTIVATED
+I 09/02/2012 07:29:22:300 00001138         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I 09/02/2012 07:29:22:300 00001138         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 09/02/2012 07:29:22:303 00000e54         AppCallbacks| addCommand: UI-CREATED
+I 09/02/2012 07:29:22:303 00001138         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I 09/02/2012 07:29:22:303 00000e54           MainWindow| navigate: 'about:blank'
+I 09/02/2012 07:29:22:303 00001138         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 09/02/2012 07:29:22:303 00000e54           MainWindow| WebView: loading...
+I 09/02/2012 07:29:22:304 00000e54           MainWindow| WebView: URL changed
+I 09/02/2012 07:29:22:304 00000e54           MainWindow| WebView: loaded 
+I 09/02/2012 07:29:22:306 00001688            RhodesApp| Starting RhodesApp main routine...
+I 09/02/2012 07:29:22:346 00001688              RhoRuby| Init_RhoBlobs: C:/Users/kristian/workspace/heartcare/rhosimulator/db/db-files
+I 09/02/2012 07:29:22:348 00001688              RhoRuby| require_compiled: digest
+I 09/02/2012 07:29:22:361 00001688              RhoRuby| require_compiled: rhoframework
+I 09/02/2012 07:29:22:362 00001688              RhoRuby| require_compiled: rational
+I 09/02/2012 07:29:22:363 00001688              RhoRuby| require_compiled: rhom/rhom_db_adapter
+I 09/02/2012 07:29:22:366 00001688              RhoRuby| require_compiled: rhodes
+I 09/02/2012 07:29:22:367 00001688              RhoRuby| require_compiled: rhom/rhom_object
+I 09/02/2012 07:29:22:368 00001688              RhoRuby| require_compiled: rhofsconnector
+I 09/02/2012 07:29:22:369 00001688              RhoRuby| require_compiled: rho/rhofsconnector
+I 09/02/2012 07:29:22:370 00001688              RhoRuby| require_compiled: rhom/rhom_object_factory
+I 09/02/2012 07:29:22:393 00001688              RhoRuby| require_compiled: rhom/rhom
+I 09/02/2012 07:29:22:396 00001688              RhoRuby| require_compiled: rhom/rhom_model
+I 09/02/2012 07:29:22:398 00001688              RhoRuby| require_compiled: rhom
+I 09/02/2012 07:29:22:398 00001688              RhoRuby| require_compiled: rho/rhoapplication
+I 09/02/2012 07:29:22:402 00001688              RhoRuby| require_compiled: rholang/localization_simplified
+I 09/02/2012 07:29:22:404 00001688              RhoRuby| require_compiled: rho/rhomsg
+I 09/02/2012 07:29:22:405 00001688              RhoRuby| require_compiled: rho/rhotabbar
+I 09/02/2012 07:29:22:406 00001688              RhoRuby| require_compiled: rho/rhotoolbar
+I 09/02/2012 07:29:22:406 00001688                  APP| Current locale: ; Country code: 
+I 09/02/2012 07:29:22:406 00001688                  APP| Locilized file: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/lang_
+I 09/02/2012 07:29:22:407 00001688              RhoRuby| require_compiled: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/lang_en
+I 09/02/2012 07:29:22:408 00001688                  APP| Locilized file: C:/Users/kristian/workspace/heartcare/app/lang/lang_
+I 09/02/2012 07:29:22:408 00001688                  APP| Locilized file: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/rhoerror_
+I 09/02/2012 07:29:22:408 00001688              RhoRuby| require_compiled: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/rhoerror_en
+I 09/02/2012 07:29:22:409 00001688                  APP| Locilized file: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/rhomsg_
+I 09/02/2012 07:29:22:409 00001688              RhoRuby| require_compiled: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/rhomsg_en
+I 09/02/2012 07:29:22:410 00001688              RhoRuby| require_compiled: indifferent_access
+I 09/02/2012 07:29:22:411 00001688              RhoRuby| require_compiled: rho/rhosupport
+I 09/02/2012 07:29:22:414 00001688              RhoRuby| require_compiled: rho/rhocontroller
+I 09/02/2012 07:29:22:416 00001688              RhoRuby| require_compiled: rho/render
+I 09/02/2012 07:29:22:420 00001688              RhoRuby| require_compiled: rho/rho
+I 09/02/2012 07:29:22:436 00001688              RhoRuby| require_compiled: rho/rhoerror
+I 09/02/2012 07:29:22:437 00001688              RhoRuby| require_compiled: rhom/rhom_source
+E 09/02/2012 07:29:22:439 00001688              RhoRuby| require_compiled: error: can not find rhodes_translator
+I 09/02/2012 07:29:22:440 00001688              RhoRuby| require_compiled: rho/rhoviewhelpers
+I 09/02/2012 07:29:22:442 00001688              RhoRuby| require_compiled: rho
+I 09/02/2012 07:29:22:443 00001688              RhoRuby| require_compiled: debugger
+I 09/02/2012 07:29:22:450 00001688              RhoRuby| require_compiled: uri
+I 09/02/2012 07:29:22:453 00001688              RhoRuby| require_compiled: uri/common
+I 09/02/2012 07:29:22:473 00001688              RhoRuby| require_compiled: uri/generic
+I 09/02/2012 07:29:22:484 00001688              RhoRuby| require_compiled: uri/ftp
+I 09/02/2012 07:29:22:499 00001688              RhoRuby| require_compiled: uri/http
+I 09/02/2012 07:29:22:502 00001688              RhoRuby| require_compiled: uri/https
+I 09/02/2012 07:29:22:503 00001688              RhoRuby| require_compiled: uri/ldap
+I 09/02/2012 07:29:22:513 00001688              RhoRuby| require_compiled: uri/ldaps
+I 09/02/2012 07:29:22:514 00001688              RhoRuby| require_compiled: uri/mailto
+I 09/02/2012 07:29:22:519 00001688              RhoRuby| require_compiled: timeout
+I 09/02/2012 07:29:23:529 00001688                  APP| [Debugger] Unable to open connection to debugger: #<Errno::ECONNREFUSED: No connection could be made because the target machine actively refused it. - connect(2)>
+I 09/02/2012 07:29:23:529 00001688                  APP| RHO loaded
+I 09/02/2012 07:29:23:529 00001688                  APP| Calling RHO.initialize
+I 09/02/2012 07:29:23:529 00001688              RhoRuby| require_compiled: rhoappmanifest
+I 09/02/2012 07:29:23:530 00001688              RhoRuby| require_compiled: find
+I 09/02/2012 07:29:23:540 00001688                  APP| model file: User/user
+I 09/02/2012 07:29:23:540 00001688                  APP| model file: Member/member
+I 09/02/2012 07:29:23:540 00001688                  APP| model file: Home/home
+I 09/02/2012 07:29:23:540 00001688                  APP| model file: HeartRate/heart_rate
+I 09/02/2012 07:29:23:540 00001688                  APP| model file: Connection/connection
+I 09/02/2012 07:29:23:540 00001688                   DB| Open DB: C:/Users/kristian/workspace/heartcare/rhosimulator/db/syncdbuser.sqlite
+I 09/02/2012 07:29:23:548 00001688          GeoLocation| Creating singleton instance.
+I 09/02/2012 07:29:23:548 00001688            RhodesApp| Starting sync engine...
+I 09/02/2012 07:29:23:549 00001688                 Sync| sync_poll_interval: 0
+I 09/02/2012 07:29:23:549 00001688                 Sync| syncserver: 
+I 09/02/2012 07:29:23:549 00001688                 Sync| bulksync_state: 0
+I 09/02/2012 07:29:23:549 00001688            RhodesApp| RhoRubyInitApp...
+I 09/02/2012 07:29:23:549 00001688                  APP| init_app
+I 09/02/2012 07:29:23:549 00001688              RhoRuby| require_compiled: application
+I 09/02/2012 07:29:23:549 00001688           HttpServer| Start HTTP server
+I 09/02/2012 07:29:23:550 00001688           HttpServer| Listen for connections on port 50265
+I 09/02/2012 07:29:23:550 00001688         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I 09/02/2012 07:29:23:550 00001138         AppCallbacks| process command: LOCAL-SERVER-STARTED
+I 09/02/2012 07:29:23:550 00001138  SystemImpl.cpp: 717| rho_sys_report_app_started() has no implementation on Win Mobile.
+I 09/02/2012 07:29:23:550 00001138         AppCallbacks| process command: UI-CREATED
+I 09/02/2012 07:29:23:550 00001138                  Net| Method: GET;Url: http://127.0.0.1:50265/system/uicreated
+I 09/02/2012 07:29:23:614 00001688           HttpServer| Process URI: '/system/uicreated'
+I 09/02/2012 07:29:23:614 00001688                  APP| on_ui_created.navigate to start url: '/app/Home'
+I 09/02/2012 07:29:23:615 00000e54           MainWindow| navigate: 'http://127.0.0.1:50265/app/Home'
+I 09/02/2012 07:29:23:615 00001138         AppCallbacks| process command: APP-ACTIVATED
+I 09/02/2012 07:29:23:615 00001138                  Net| Method: GET;Url: http://127.0.0.1:50265/system/activateapp
+I 09/02/2012 07:29:23:615 00000e54           MainWindow| WebView: loading...
+I 09/02/2012 07:29:23:616 00001688           HttpServer| Process URI: '/system/activateapp'
+I 09/02/2012 07:29:23:616 00001688           HttpServer| Process URI: '/app/Home'
+I 09/02/2012 07:29:23:617 00001688                  APP| RHO serve: /app/Home
+I 09/02/2012 07:29:23:617 00001688              RhoRuby| require_compiled: Home/home_controller
+I 09/02/2012 07:29:23:618 00001688              RhoRuby| require_compiled: parent_controller
+I 09/02/2012 07:29:23:618 00001688              RhoRuby| require_compiled: helpers/browser_helper
+I 09/02/2012 07:29:23:619 00001688              RhoRuby| require_compiled: helpers/browser_helper
+I 09/02/2012 07:29:23:619 00001688              RhoRuby| require_compiled: rho/rhobluetooth
+I 09/02/2012 07:29:23:621 00001688                  APP| const_missing: User
+I 09/02/2012 07:29:23:621 00001688                  APP| load_model: User
+I 09/02/2012 07:29:23:622 00001688              RhoRuby| require_compiled: User/user
+I 09/02/2012 07:29:23:622 00001688                  APP| model name: User
+I 09/02/2012 07:29:23:622 00001688                  APP| model class found
+I 09/02/2012 07:29:23:622 00001688                  APP| User : {"property"=>{}}
+I 09/02/2012 07:29:23:622 00001688                   DB| Open DB: C:/Users/kristian/workspace/heartcare/rhosimulator/db/syncdblocal.sqlite
+I 09/02/2012 07:29:23:623 00001138         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 09/02/2012 07:29:23:632 00001688                  APP| init_db_sources
+I 09/02/2012 07:29:23:661 00001688                  APP| start_id: 40008
+I 09/02/2012 07:29:23:661 00001688                  APP| Migrate schema sources: {}
+I 09/02/2012 07:29:23:661 00000e54           MainWindow| navigate: 'http://127.0.0.1:50265/app/Settings/login?msg=Login%20First'
+I 09/02/2012 07:29:23:662 00001688              RhoRuby| require_compiled: erb
+I 09/02/2012 07:29:23:662 00000e54           MainWindow| WebView: failed 
+I 09/02/2012 07:29:23:662 00000e54           MainWindow| WebView: loading...
+I 09/02/2012 07:29:23:669 00001688                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Home/index.erb
+I 09/02/2012 07:29:23:670 00001688                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/layout.erb
+I 09/02/2012 07:29:23:671 00001688   RHO HomeController| Layout file: C:/Users/kristian/workspace/heartcare/app/layout.erb. Content size: 4888
+I 09/02/2012 07:29:23:671 00001688           HttpServer| GC Start.
+I 09/02/2012 07:29:23:673 00001688           HttpServer| GC End.
+I 09/02/2012 07:29:23:675 00001688           HttpServer| Process URI: '/app/Settings/login'
+I 09/02/2012 07:29:23:675 00001688                  APP| RHO serve: /app/Settings/login
+I 09/02/2012 07:29:23:675 00001688              RhoRuby| require_compiled: Settings/controller
+I 09/02/2012 07:29:23:678 00001688              RhoRuby| require_compiled: parent_controller
+I 09/02/2012 07:29:23:679 00001688              RhoRuby| require_compiled: helpers/browser_helper
+I 09/02/2012 07:29:23:680 00001688              RhoRuby| require_compiled: Member/member
+I 09/02/2012 07:29:23:680 00001688              RhoRuby| require_compiled: helpers/browser_helper
+I 09/02/2012 07:29:23:680 00001688              RhoRuby| require_compiled: json
+I 09/02/2012 07:29:23:681 00001688              RhoRuby| require_compiled: json/common
+I 09/02/2012 07:29:23:684 00001688              RhoRuby| require_compiled: json/version
+I 09/02/2012 07:29:23:685 00001688              RhoRuby| require_compiled: json/pure
+I 09/02/2012 07:29:23:687 00001688              RhoRuby| require_compiled: json/pure/generator
+I 09/02/2012 07:29:23:692 00001688                  APP| Params: {"msg"=>"Login First"}
+I 09/02/2012 07:29:23:692 00001688                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Settings/login.erb
+I 09/02/2012 07:29:23:693 00001688                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/layout.erb
+I 09/02/2012 07:29:23:694 00001688 RHO SettingsController| Layout file: C:/Users/kristian/workspace/heartcare/app/layout.erb. Content size: 4129
+I 09/02/2012 07:29:23:694 00001688           HttpServer| GC Start.
+I 09/02/2012 07:29:23:696 00000e54           MainWindow| WebView: URL changed
+I 09/02/2012 07:29:23:701 00001688           HttpServer| GC End.
+I 09/02/2012 07:29:23:719 00001688           HttpServer| Process URI: '/public/jquery/jquery-1.6.4.js'
+I 09/02/2012 07:29:23:761 00001688           HttpServer| Process URI: '/public/jquery/jquery.json-2.3.min.js'
+I 09/02/2012 07:29:23:762 00001688           HttpServer| Process URI: '/public/js/gauge.js'
+I 09/02/2012 07:29:23:762 00001688           HttpServer| Process URI: '/public/js/jquery.flot.js'
+I 09/02/2012 07:29:23:764 00001688           HttpServer| Process URI: '/public/js/jquery.flot.time.js'
+I 09/02/2012 07:29:23:764 00001688           HttpServer| Process URI: '/public/js/tween-min.js'
+I 09/02/2012 07:29:23:770 00001688           HttpServer| Process URI: '/public/js/steelseries-min.js'
+I 09/02/2012 07:29:23:862 00001688           HttpServer| Process URI: '/public/css/Bootstrap.css'
+I 09/02/2012 07:29:23:863 00001688           HttpServer| Process URI: '/public/jqmobile/jquery.mobile.structure-1.0.1.min.css'
+I 09/02/2012 07:29:23:863 00001688           HttpServer| Process URI: '/public/css/jqm-icon-pack-1.1.1-fa.css'
+I 09/02/2012 07:29:23:864 00001688           HttpServer| Process URI: '/public/css/application.css'
+I 09/02/2012 07:29:23:864 00001688           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0.1.min.js'
+I 09/02/2012 07:29:24:083 00001688           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I 09/02/2012 07:29:24:171 00001688           HttpServer| Process URI: '/public/images/reload.png'
+I 09/02/2012 07:29:24:172 00001688           HttpServer| Process URI: '/public/css/images/logo.png'
+I 09/02/2012 07:29:24:190 00001688           HttpServer| Process URI: '/public/images/ajax-loader.gif'
+I 09/02/2012 07:29:24:190 00001688           HttpServer| Process URI: '/public/css/images/divider.png'
+I 09/02/2012 07:29:24:206 00000e54           MainWindow| WebView: loaded 
+I 09/02/2012 07:29:36:737 00001688           HttpServer| Process URI: '/app/Settings/do_login'
+I 09/02/2012 07:29:36:737 00001688                  APP| RHO serve: /app/Settings/do_login
+I 09/02/2012 07:29:36:738 00001688              RhoRuby| require_compiled: Settings/controller
+I 09/02/2012 07:29:36:743 00001688              RhoRuby| require_compiled: parent_controller
+I 09/02/2012 07:29:36:744 00001688              RhoRuby| require_compiled: helpers/browser_helper
+I 09/02/2012 07:29:36:745 00001688              RhoRuby| require_compiled: Member/member
+I 09/02/2012 07:29:36:745 00001688              RhoRuby| require_compiled: helpers/browser_helper
+I 09/02/2012 07:29:36:746 00001688                  APP| Params: {"login"=>"", "password"=>""}
+I 09/02/2012 07:29:36:747 00001688            AsyncHttp| addCommand: POST
+I 09/02/2012 07:29:36:747 00000e54           MainWindow| navigate: 'http://127.0.0.1:50265/app/Settings/wait'
+I 09/02/2012 07:29:36:747 00001688           HttpServer| GC Start.
+I 09/02/2012 07:29:36:750 00001688           HttpServer| GC End.
+I 09/02/2012 07:29:36:750 000011d0            AsyncHttp| Starting main routine...
+I 09/02/2012 07:29:36:750 000011d0                  Net| Method: POST;Url: http://aorta-beta.herokuapp.com/api/v1/tokens.json
+I 09/02/2012 07:29:36:759 00000e54           MainWindow| WebView: loading...
+I 09/02/2012 07:29:36:761 00001688           HttpServer| Process URI: '/app/Settings/wait'
+I 09/02/2012 07:29:36:761 00001688                  APP| RHO serve: /app/Settings/wait
+I 09/02/2012 07:29:36:762 00001688              RhoRuby| require_compiled: Settings/controller
+I 09/02/2012 07:29:36:765 00001688              RhoRuby| require_compiled: parent_controller
+I 09/02/2012 07:29:36:765 00001688              RhoRuby| require_compiled: helpers/browser_helper
+I 09/02/2012 07:29:36:766 00001688              RhoRuby| require_compiled: Member/member
+I 09/02/2012 07:29:36:766 00001688              RhoRuby| require_compiled: helpers/browser_helper
+I 09/02/2012 07:29:36:767 00001688                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Settings/wait.erb
+I 09/02/2012 07:29:36:767 00001688                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/layout.erb
+I 09/02/2012 07:29:36:768 00001688 RHO SettingsController| Layout file: C:/Users/kristian/workspace/heartcare/app/layout.erb. Content size: 2977
+I 09/02/2012 07:29:36:768 00001688           HttpServer| GC Start.
+I 09/02/2012 07:29:36:769 00000e54           MainWindow| WebView: URL changed
+I 09/02/2012 07:29:36:770 00001688           HttpServer| GC End.
+I 09/02/2012 07:29:36:784 00001688           HttpServer| Process URI: '/public/jquery/jquery-1.6.4.js'
+I 09/02/2012 07:29:36:786 00001688           HttpServer| Process URI: '/public/jquery/jquery.json-2.3.min.js'
+I 09/02/2012 07:29:36:787 00001688           HttpServer| Process URI: '/public/js/gauge.js'
+I 09/02/2012 07:29:36:787 00001688           HttpServer| Process URI: '/public/js/jquery.flot.js'
+I 09/02/2012 07:29:36:837 00001688           HttpServer| Process URI: '/public/js/jquery.flot.time.js'
+I 09/02/2012 07:29:36:838 00001688           HttpServer| Process URI: '/public/js/tween-min.js'
+I 09/02/2012 07:29:36:839 00001688           HttpServer| Process URI: '/public/js/steelseries-min.js'
+I 09/02/2012 07:29:36:864 00001688           HttpServer| Process URI: '/public/css/Bootstrap.css'
+I 09/02/2012 07:29:36:865 00001688           HttpServer| Process URI: '/public/jqmobile/jquery.mobile.structure-1.0.1.min.css'
+I 09/02/2012 07:29:36:865 00001688           HttpServer| Process URI: '/public/css/jqm-icon-pack-1.1.1-fa.css'
+I 09/02/2012 07:29:36:865 00001688           HttpServer| Process URI: '/public/css/application.css'
+I 09/02/2012 07:29:36:866 00001688           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0.1.min.js'
+I 09/02/2012 07:29:36:956 00001688           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I 09/02/2012 07:29:37:083 00001688           HttpServer| Process URI: '/public/images/ajax-loader.gif'
+I 09/02/2012 07:29:37:105 00000e54           MainWindow| WebView: loaded 
+E 09/02/2012 07:29:37:925 000011d0                  Net| An error occured connecting to the server: 401 returned.
+I 09/02/2012 07:29:37:925 000011d0                  Net| Method: POST;Url: http://127.0.0.1:50265/app/Settings/login_callback
+I 09/02/2012 07:29:37:927 00001688           HttpServer| Process URI: '/app/Settings/login_callback'
+I 09/02/2012 07:29:37:928 00001688                  APP| RHO serve: /app/Settings/login_callback
+I 09/02/2012 07:29:37:928 00001688              RhoRuby| require_compiled: Settings/controller
+I 09/02/2012 07:29:37:939 00001688              RhoRuby| require_compiled: parent_controller
+I 09/02/2012 07:29:37:941 00001688              RhoRuby| require_compiled: helpers/browser_helper
+I 09/02/2012 07:29:37:943 00001688              RhoRuby| require_compiled: Member/member
+I 09/02/2012 07:29:37:944 00001688              RhoRuby| require_compiled: helpers/browser_helper
+I 09/02/2012 07:29:37:947 00001688                  APP| Params: {"rho_callback"=>"1", "status"=>"error", "error_code"=>"9", "http_error"=>"401", "headers"=>{"cache-control"=>"no-cache", "connection"=>"close", "content-length"=>"44", "content-type"=>"application/json; charset=utf-8", "date"=>"Sun, 02 Sep 2012 00:29:45 GMT", "set-cookie"=>"_app_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJWYxNjJjZWYxNTk5ZTY3ZmFkMDI2Y2ZjNjk1YzQ4ZTNlBjsAVA%3D%3D--3ed31c11146a295660602671008ff115935c8d59; path=/; HttpOnly", "status"=>"401 Unauthorized", "x-cache"=>"MISS from proxy", "x-cache-lookup"=>"MISS from proxy:3128", "x-rack-cache"=>"invalidate, pass", "x-request-id"=>"2ada4ffb810d57f7ad5bf59dca3ad698", "x-runtime"=>"0.132859", "x-ua-compatible"=>"IE=Edge,chrome=1"}, "__rho_object"=>{"body"=>"0"}}
+I 09/02/2012 07:29:37:948 00000e54           MainWindow| navigate: 'http://127.0.0.1:50265/app/Settings/login?msg=Invalid%20username%20or%20passoword.'
+I 09/02/2012 07:29:37:948 00001688           HttpServer| GC Start.
+I 09/02/2012 07:29:37:948 00000e54           MainWindow| WebView: loading...
+I 09/02/2012 07:29:37:950 000011d0            AsyncHttp| ThreadQueue blocked for 4294967295 seconds...
+I 09/02/2012 07:29:37:953 00001688           HttpServer| GC End.
+I 09/02/2012 07:29:37:953 00001688           HttpServer| Process URI: '/app/Settings/login'
+I 09/02/2012 07:29:37:954 00001688                  APP| RHO serve: /app/Settings/login
+I 09/02/2012 07:29:37:954 00001688              RhoRuby| require_compiled: Settings/controller
+I 09/02/2012 07:29:37:959 00001688              RhoRuby| require_compiled: parent_controller
+I 09/02/2012 07:29:37:960 00001688              RhoRuby| require_compiled: helpers/browser_helper
+I 09/02/2012 07:29:37:960 00001688              RhoRuby| require_compiled: Member/member
+I 09/02/2012 07:29:37:961 00001688              RhoRuby| require_compiled: helpers/browser_helper
+I 09/02/2012 07:29:37:962 00001688                  APP| Params: {"msg"=>"Invalid username or passoword."}
+I 09/02/2012 07:29:37:962 00001688                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/Settings/login.erb
+I 09/02/2012 07:29:37:963 00001688                  APP| eval_compiled_file : C:/Users/kristian/workspace/heartcare/app/layout.erb
+I 09/02/2012 07:29:37:964 00001688 RHO SettingsController| Layout file: C:/Users/kristian/workspace/heartcare/app/layout.erb. Content size: 4148
+I 09/02/2012 07:29:37:964 00001688           HttpServer| GC Start.
+I 09/02/2012 07:29:37:965 00000e54           MainWindow| WebView: URL changed
+I 09/02/2012 07:29:37:967 00001688           HttpServer| GC End.
+I 09/02/2012 07:29:37:983 00001688           HttpServer| Process URI: '/public/jquery/jquery-1.6.4.js'
+I 09/02/2012 07:29:37:985 00001688           HttpServer| Process URI: '/public/jquery/jquery.json-2.3.min.js'
+I 09/02/2012 07:29:37:986 00001688           HttpServer| Process URI: '/public/js/gauge.js'
+I 09/02/2012 07:29:37:986 00001688           HttpServer| Process URI: '/public/js/jquery.flot.js'
+I 09/02/2012 07:29:37:987 00001688           HttpServer| Process URI: '/public/js/jquery.flot.time.js'
+I 09/02/2012 07:29:37:988 00001688           HttpServer| Process URI: '/public/js/tween-min.js'
+I 09/02/2012 07:29:37:988 00001688           HttpServer| Process URI: '/public/js/steelseries-min.js'
+I 09/02/2012 07:29:37:991 00001688           HttpServer| Process URI: '/public/css/Bootstrap.css'
+I 09/02/2012 07:29:38:060 00001688           HttpServer| Process URI: '/public/jqmobile/jquery.mobile.structure-1.0.1.min.css'
+I 09/02/2012 07:29:38:061 00001688           HttpServer| Process URI: '/public/css/jqm-icon-pack-1.1.1-fa.css'
+I 09/02/2012 07:29:38:061 00001688           HttpServer| Process URI: '/public/css/application.css'
+I 09/02/2012 07:29:38:063 00001688           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0.1.min.js'
+I 09/02/2012 07:29:38:068 00001688           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I 09/02/2012 07:29:38:313 00001688           HttpServer| Process URI: '/public/images/reload.png'
+I 09/02/2012 07:29:38:314 00001688           HttpServer| Process URI: '/public/css/images/logo.png'
+I 09/02/2012 07:29:38:316 00001688           HttpServer| Process URI: '/public/images/ajax-loader.gif'
+I 09/02/2012 07:29:38:317 00001688           HttpServer| Process URI: '/public/css/images/divider.png'
+I 09/02/2012 07:29:38:343 00000e54           MainWindow| WebView: loaded 
+I 09/02/2012 07:29:40:556 00000e54            RhodesApp| callAppActiveCallback
+I 09/02/2012 07:29:40:557 00000e54         AppCallbacks| addCommand: APP-DEACTIVATED
+I 09/02/2012 07:29:40:557 00000e54                  Net| Method: GET;Url: http://127.0.0.1:50265/system/deactivateapp
+I 09/02/2012 07:29:40:557 00001138         AppCallbacks| process command: APP-DEACTIVATED
+I 09/02/2012 07:29:40:557 00001138         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 09/02/2012 07:29:40:568 00001688           HttpServer| Process URI: '/system/deactivateapp'
+I 09/02/2012 07:29:40:569 00000e54                  Net| Method: GET;Url: http://127.0.0.1:50265/system/uidestroyed
+I 09/02/2012 07:29:40:570 00001688           HttpServer| Process URI: '/system/uidestroyed'
+I 09/02/2012 07:29:40:570 00001138         AppCallbacks| Thread shutdown
+I 09/02/2012 07:29:40:571 00000e54           HttpServer| Stopping server...
+I 09/02/2012 07:29:40:571 00001688            RhodesApp| RhodesApp thread shutdown
+I 09/02/2012 07:29:40:571 00001688          GeoLocation| Destroying singleton instance.
+I 09/02/2012 07:29:40:571 00001688                 Sync| Stopping Sync thread
+I 09/02/2012 07:29:40:577 000011d0            AsyncHttp| Thread shutdown
+I 09/02/2012 07:29:40:577 00001688            AsyncHttp| Thread shutdown
 I 09/02/2012 06:02:36:352 00000ec8   RHO HomeController| Layout file: C:/Users/kristian/workspace/heartcare/app/layout.erb. Content size: 4888
 I 09/02/2012 06:02:36:353 00000ec8           HttpServer| GC Start.
 I 09/02/2012 06:02:36:357 00000ec8           HttpServer| GC End.

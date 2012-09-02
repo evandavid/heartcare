@@ -1,6 +1,6 @@
 #sdk: "C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3"
 sdkversion: "3.3.3"
-name: "Heart Care"
+name: "Aorta Life"
 version: 1.0
 vendor: "rhomobile"
 build: "debug"

@@ -1,7 +1,7 @@
 # startup page for your application
 start_path = '/app/Home'
 
-server_url = 'http://heartcare.herokuapp.com/'
+server_url = 'http://aorta-beta.herokuapp.com/'
 
 # path to the options page (in this case handled by javascript)
 options_path = '/app/Settings'
